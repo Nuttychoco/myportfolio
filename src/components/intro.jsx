@@ -12,8 +12,8 @@ const Intro = () => {
 
     const [state] = useState({
         title: "Hi, ",
-        titleTwo: "I'm",
-        titleThree: "HACKER",
+        titleTwo: "I'm ",
+        titleThree: "Chris Jhovin",
     });
     return (
         <section>
@@ -28,12 +28,10 @@ const Intro = () => {
                         options={{
                             autoStart: true,
                             loop: true,
-                            delay: 40,
+                            delay: 60,
                             strings: [
-                                "Eat",
-                                "Sleep",
-                                "Code",
-                                "Repeat",
+                                "Coding Is My Passion,",
+                                "Came From Nothing To Something.",
                             ],
                         }} />
                 </div>

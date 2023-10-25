@@ -4,7 +4,8 @@ section {
     height: 75vh;
     background-color: black;
     background-size: cover;
-    background-color: black;
+   
+    
 }
 
 .home-intro {
@@ -12,14 +13,13 @@ section {
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
-    padding: 2rem 2rem;
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-  
-    font-size: 50px;
     color: white;
+    
 
 }
 
@@ -31,23 +31,31 @@ section {
 .title {
     animation-name: moveRight;
     animation-duration: 2s;
+    font-size: 30px;
 }
 
 .titleTwo {
+   
     animation-name: moveLeft;
     animation-duration: 3s;
+    font-size: 60px;
+    color: darkred;
+    
 }
 
 .titleThree {
     animation-name: moveRight;
     animation-duration: 3.5s;
     margin-bottom: 10px;
+    font-size: 70px;
+    z-index: 5;
 }
 
 .text {
     font-size: 40px;
     color: white;
     margin-bottom: 20px;
+    z-index: 4;
 }
 
 .button {
@@ -61,7 +69,7 @@ section {
     position: relative;
     transform: translateZ(0);
     animation-name: moveUp;
-    animation-duration: 1s;
+    animation-duration: 2s;
     cursor: pointer;
 }
 
@@ -182,3 +190,127 @@ section {
     }
 
 }
+
+@media only screen and (max-width: 1280px) {
+    .bg {
+        position: absolute;
+        top: 5em;
+        right: -7em;
+        z-index: 2;
+        object-fit: cover;
+        height: 70vh;
+        width: 100vh;
+        border-radius: 20%;
+    
+    }
+    
+    .mypic {
+        position: absolute;
+        margin-top: 9em;
+        right: 8em;
+        z-index: 2;
+        height: 60vh;
+        width: 34vh;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 821px) {
+
+    section {
+        max-width: 100%;
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        background-size: cover;
+
+        
+       
+    }
+
+    .home-intro {
+        width: 50%;
+        width: 100vw;
+        max-width: 75rem;
+        margin: 0 auto;
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+      
+    }
+    
+    .home-image {
+        width: 50%;
+        height: 80vh;
+    }
+    
+    .title {
+        animation-name: moveRight;
+        animation-duration: 2s;
+        font-size: 30px;
+  
+    }
+    
+    .titleTwo {
+        animation-name: moveLeft;
+        animation-duration: 3s;
+        font-size: 60px;
+        color: darkred;
+       
+    }
+    
+    .titleThree {
+        animation-name: moveRight;
+        animation-duration: 3.5s;
+        margin-bottom: 10px;
+        font-size: 60px;
+        
+    }
+    
+    .text {
+        font-size: 40px;
+        color: white;
+        margin-bottom: 20px;
+        z-index: 5;
+    }
+    
+    .button {
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        background-color: white;
+        color: black;
+        padding: 12px 25px;
+        position: relative;
+        transform: translateZ(0);
+        animation-name: moveUp;
+        animation-duration: 2s;
+        cursor: pointer;
+    }
+    .bg {
+       position: absolute;
+        top: 4em;
+        right: -6em;
+        z-index: 3;
+        object-fit: cover;
+        height: 50vh;
+        width: 50vh;
+        border-radius: 20%;
+    
+    }
+    
+    .mypic {
+        position: absolute;
+        margin-top: 9em;
+        right: 8em;
+        z-index: 4;
+        height: 40vh;
+        width: 15vh;
+    }
+
+  }

@@ -12,9 +12,8 @@ const Navbar = () => {
     <nav className="navbar">
       <img src={logo} alt="" className='logo' />
       <div className="desktopMenu">
-      <Link className='desktopMenuListItem' >Home</Link>
-      <Link className='desktopMenuListItem' >Clients</Link>
-      <Link className='desktopMenuListItem' >About</Link>
+      <Link className='desktopMenuListItem' >Project</Link>
+      <Link className='desktopMenuListItem' >Experience</Link>
       <Link className='desktopMenuListItem' >Contact</Link>
       </div>
       <div>
