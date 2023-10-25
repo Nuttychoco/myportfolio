@@ -25,19 +25,23 @@ const Intro = () => {
                 </h2>
                 <div className='text'>
                     <Typewriter
-                    options={{
-                        autoStart: true,
-                        loop: true,
-                        delay: 40,
-                        strings: [
-                            "Eat",
-                            "Sleep",
-                            "Code",
-                            "Repeat",
-                        ],
-                    }}/>
+                        options={{
+                            autoStart: true,
+                            loop: true,
+                            delay: 40,
+                            strings: [
+                                "Eat",
+                                "Sleep",
+                                "Code",
+                                "Repeat",
+                            ],
+                        }} />
+                </div>
+                <div className='contact-me'>
+                    <button className='button'>Hire Me!</button>
 
                 </div>
+
             </div>
 
             <img src={bg} alt="" className='bg' />

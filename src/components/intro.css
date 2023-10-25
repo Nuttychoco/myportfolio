@@ -52,10 +52,10 @@ section {
 
 .button {
     font-size: 16px;
-    border: 2px solid white;
-    border-radius: 5px;
+    border: none;
+    border-radius: 8px;
     outline: none;
-    background-color: green;
+    background-color: white;
     color: black;
     padding: 12px 25px;
     position: relative;
@@ -69,17 +69,24 @@ section {
     content: "";
     position: absolute;
     z-index: -1;
+    border-radius: 8px;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: yellow;
+    background: darkred;
     transform: scaleX(0);
-    transition: 300mx ease-out;
+    transition: 300ms ease-out;
+    
+}
+
+.button:hover{
+    color: white;
 }
 
 .button:hover::before {
     transform: scaleX(1);
+   
 }
 
 @keyframes moveRight {
