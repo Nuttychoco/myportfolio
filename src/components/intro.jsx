@@ -13,7 +13,7 @@ const Intro = () => {
     const [state] = useState({
         title: "Hi, ",
         titleTwo: "I'm",
-        titleThree: "Code&Coding",
+        titleThree: "HACKER",
     });
     return (
         <section>
@@ -30,9 +30,10 @@ const Intro = () => {
                         loop: true,
                         delay: 40,
                         strings: [
-                            "I'm a Pogi",
-                            "I'm a Web Developer",
-                            "I'm a Tech Enthusiast",
+                            "Eat",
+                            "Sleep",
+                            "Code",
+                            "Repeat",
                         ],
                     }}/>
 
