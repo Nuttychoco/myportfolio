@@ -9,6 +9,7 @@ section {
 }
 
 .home-intro {
+    position: relative;
     width: 50%;
     width: 100vw;
     max-width: 75rem;
@@ -19,6 +20,7 @@ section {
     justify-content: center;
     align-items: flex-start;
     color: white;
+    z-index: 6;
     
 
 }
@@ -279,7 +281,7 @@ section {
     }
     
     .button {
-        font-size: 16px;
+        font-size: 20px;
         border: none;
         border-radius: 8px;
         outline: none;
@@ -307,10 +309,10 @@ section {
     .mypic {
         position: absolute;
         margin-top: 9em;
-        right: 8em;
+        right: 5em;
         z-index: 4;
         height: 40vh;
-        width: 15vh;
+        width: 20vh;
     }
 
   }
