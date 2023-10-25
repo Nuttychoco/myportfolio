@@ -38,7 +38,7 @@ const Intro = () => {
                         }} />
                 </div>
                 <div className='contact-me'>
-                    <button className='button'>Hire Me!</button>
+                    <button className='button'><FontAwesomeIcon icon={faBriefcase} /> Hire Me!</button>
 
                 </div>
 
