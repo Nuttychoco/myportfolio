@@ -28,15 +28,33 @@
 .desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
+    position: relative;
+    transform: translateZ(0);
+    animation-duration: 1s;
+    padding-bottom: .5rem;
+}
+
+.desktopMenuListItem:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid darkred;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: 300ms ease-out;
 }
 
 .desktopMenuListItem:hover {
-    content: "";
     color: darkred;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid darkred;
-    transform: scale(1);
-    transition: 0.3s ;
+}
+
+.desktopMenuListItem:hover::before {
+    transform: scaleX(1);
+   
 }
 
 .icons{
