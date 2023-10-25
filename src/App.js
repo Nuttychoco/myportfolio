@@ -1,6 +1,6 @@
 import './App.css'
-import Intro from "./components/intro.jsx";
-import Navbar from "./components/navbar.jsx";
+import Navbar from '../src/components/navbar'
+import Intro from '../src/components/intro'
 
 
 
