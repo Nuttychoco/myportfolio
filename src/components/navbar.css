@@ -146,7 +146,7 @@
     }
 }
 
-@media only screen and (max-width: 441px) {
+@media only screen and (max-width: 475px) {
     .navbar {
         height: 4rem;
         width: 100vw;
@@ -192,7 +192,7 @@
 }
 
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 386px) {
     .navbar {
         height: 4rem;
         width: 100vw;
