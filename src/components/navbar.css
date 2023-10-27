@@ -236,3 +236,48 @@
         cursor: pointer;
     }
 }
+
+@media only screen and (max-width: 360px) {
+    .navbar {
+        height: 4rem;
+        width: 100vw;
+        max-width: 30rem;
+        margin: 0 auto;
+        padding: .1rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 300;
+        box-shadow: 2px 2px 2px black;
+
+    }
+
+    .logo {
+        object-fit: cover;
+        height: 2.1rem;
+        width: 3.4rem;
+        cursor: pointer;
+
+    }
+
+    .desktopMenuListItem {
+        font-size: 10px;
+        margin: 2px;
+        cursor: pointer;
+        position: relative;
+        transform: translateZ(0);
+        animation-duration: 1s;
+        padding-bottom: .5rem;
+        border-right: 1px solid darkred;
+        padding-right: 4px;
+        font-weight: bolder;
+    }
+
+    .icons {
+        font-size: 1.2rem;
+        margin: .3rem;
+        cursor: pointer;
+    }
+}
