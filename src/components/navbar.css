@@ -1,19 +1,30 @@
-
-
 .navbar {
-    
     height: 4rem;
     width: 100vw;
-    max-width: 75rem;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1rem 12rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 3;
- 
+    z-index: 300;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px black;
+    animation-name: transition;
+    animation-duration: 5s;
+}
+
+@keyframes transition {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
 }
 
 .logo {
@@ -21,8 +32,8 @@
     height: 3rem;
     width: 5rem;
     cursor: pointer;
- 
-   
+
+
 }
 
 .desktopMenuListItem {
@@ -54,32 +65,57 @@
 
 .desktopMenuListItem:hover::before {
     transform: scaleX(1);
-   
+
 }
 
-.icons{
+.icons {
     font-size: 1.5rem;
     margin: .5rem;
     cursor: pointer;
 }
-.icons:hover{
+
+.icons:hover {
     color: darkred;
 }
 
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 1020px) {
     .navbar {
         height: 4rem;
         width: 100vw;
-        max-width: 30rem;
-        margin: 0 auto;
-        padding: .1rem 1rem;
+        padding: 1rem 5rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
         position: sticky;
         top: 0;
-        z-index: 3;
-     
+        z-index: 300;
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 2px black;
+        animation-name: transition;
+        animation-duration: 5s;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+    .navbar {
+        height: 4rem;
+        width: 100vw;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 300;
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 2px black;
+
     }
 
     .logo {
@@ -87,7 +123,7 @@
         height: 2.5rem;
         width: 4.1rem;
         cursor: pointer;
-       
+
     }
 
     .desktopMenuListItem {
@@ -98,19 +134,19 @@
         transform: translateZ(0);
         animation-duration: 1s;
         padding-bottom: .5rem;
-     
+
         padding-right: 4px;
         font-weight: bold;
     }
 
-    .icons{
+    .icons {
         font-size: 1.5rem;
         margin: .3rem;
         cursor: pointer;
     }
-  }
+}
 
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 441px) {
     .navbar {
         height: 4rem;
         width: 100vw;
@@ -122,8 +158,9 @@
         justify-content: space-between;
         position: sticky;
         top: 0;
-        z-index: 3;
-     
+        z-index: 300;
+        box-shadow: 2px 2px 2px black;
+
     }
 
     .logo {
@@ -131,7 +168,7 @@
         height: 3rem;
         width: 5rem;
         cursor: pointer;
-       
+
     }
 
     .desktopMenuListItem {
@@ -147,15 +184,15 @@
         font-weight: bolder;
     }
 
-    .icons{
+    .icons {
         font-size: 1.5rem;
         margin: .3rem;
         cursor: pointer;
     }
-  }
+}
 
 
-  @media only screen and (max-width: 376px) {
+@media only screen and (max-width: 376px) {
     .navbar {
         height: 4rem;
         width: 100vw;
@@ -167,8 +204,9 @@
         justify-content: space-between;
         position: sticky;
         top: 0;
-        z-index: 3;
-     
+        z-index: 300;
+        box-shadow: 2px 2px 2px black;
+
     }
 
     .logo {
@@ -176,7 +214,7 @@
         height: 2.5rem;
         width: 4.1rem;
         cursor: pointer;
-       
+
     }
 
     .desktopMenuListItem {
@@ -192,13 +230,9 @@
         font-weight: bolder;
     }
 
-    .icons{
+    .icons {
         font-size: 1.5rem;
         margin: .3rem;
         cursor: pointer;
     }
-  }
-
- 
-
- 
+}
