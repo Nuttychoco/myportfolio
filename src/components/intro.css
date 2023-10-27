@@ -4,9 +4,10 @@ section {
     height: 75vh;
     background-color: black;
     background-size: cover;
-   
-    
+    animation-name: transition;
+    animation-duration: 3s;
 }
+
 
 .home-intro {
     position: relative;
@@ -32,14 +33,14 @@ section {
 
 .title {
     animation-name: moveRight;
-    animation-duration: 2s;
+    animation-duration: 3s;
     font-size: 30px;
 }
 
 .titleTwo {
    
     animation-name: moveLeft;
-    animation-duration: 3s;
+    animation-duration: 4s;
     font-size: 60px;
     color: darkred;
     
@@ -47,7 +48,7 @@ section {
 
 .titleThree {
     animation-name: moveRight;
-    animation-duration: 3.5s;
+    animation-duration: 4.5s;
     margin-bottom: 10px;
     font-size: 70px;
     z-index: 5;
@@ -71,7 +72,7 @@ section {
     position: relative;
     transform: translateZ(0);
     animation-name: moveUp;
-    animation-duration: 2s;
+    animation-duration: 4s;
     cursor: pointer;
 }
 
@@ -148,6 +149,8 @@ section {
     height: 70vh;
     width: 100vh;
     border-radius: 20%;
+    animation-name: transition;
+    animation-duration: 6s;
 
 }
 
@@ -158,10 +161,23 @@ section {
     z-index: 2;
     height: 70vh;
     width: 40vh;
+    animation-name: transition;
+    animation-duration: 7s;
 }
 
 .moving {
     animation: animateUser 4s linear infinite;
+}
+
+@keyframes transition {
+    0% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 
