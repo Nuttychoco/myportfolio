@@ -1,8 +1,23 @@
-.preloader .loaderImg {
-    background-color:black;
-    background-size: 20%;
+.loaderImg {
+    max-width: 100%;
+    width: 50%;
     height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 56;
+    margin: auto;
+    padding: auto;
+
+}
+
+.preloader {
+    background-color: black;
+    position: relative;
+    opacity: 1;
+    transition: opacity 3s ease;
+}
+
+.preloader:hover {
+    opacity: 0;
 }
