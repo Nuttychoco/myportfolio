@@ -317,7 +317,7 @@ section {
 
   }
 
-  @media only screen and (max-width: 401px) {
+  @media only screen and (max-width: 421px) {
     section {
         max-width: 100%;
         width: 100%;
@@ -396,7 +396,7 @@ section {
     .bg {
        position: absolute;
         top: 4em;
-        right: -4em;
+        right: -5em;
         z-index: 3;
         object-fit: cover;
         height: 50vh;
@@ -408,7 +408,7 @@ section {
     .mypic {
         position: absolute;
         margin-top: 7em;
-        right: 2em;
+        right: 3em;
         z-index: 4;
         height: 40vh;
         width: 20vh;
