@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Navbar from './components/navbar'
 import Intro from './components/intro'
 import PreLoader from './components/Preloader'
-import Skills from './components/Skills'
+import Skills from './components/skills'
 
 
 
