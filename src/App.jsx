@@ -3,9 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Navbar from './components/navbar'
 import Intro from './components/intro'
 import PreLoader from './components/Preloader'
-import Skills from './components/skills'
-
-
+import Skills from './components/Skills'
 
 
 
@@ -18,20 +16,22 @@ function App() {
     }, 2500);
   })
 
+
+
   return (
     <div>
-   { isLoading ? ( 
-   <PreLoader/>
-   ) : 
-      <div>
-        <Navbar/>
-        <Intro/>
-        <Skills/>
-      </div>
-   }
+      {isLoading ? (
+        <PreLoader />
+      ) :
+        <div>
+          <Navbar />
+          <Intro />
+          <Skills />
+        </div>
+      }
 
     </div>
   );
 }
- 
+
 export default App;

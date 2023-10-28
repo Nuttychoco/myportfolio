@@ -43,8 +43,8 @@ const Intro = () => {
                             loop: true,
                             delay: 60,
                             strings: [
-                                "Coding Is My Passion,",
-                                "Came From Nothing To Something.",
+                                "Code with Passion,",
+                                "Create with Precision.",
                             ],
                         }} />
                 </div>
