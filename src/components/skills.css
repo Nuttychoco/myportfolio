@@ -63,10 +63,7 @@
     font-weight: 200;
 }
 
-.skillBar:hover {
-    background: black;
-    border: 1px solid white;
-}
+
 
 @media only screen and (max-width: 832px) {
     .skills {
