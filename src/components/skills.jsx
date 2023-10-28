@@ -16,7 +16,7 @@ const Skills = () => {
     return (
         <section className='skills'>
             <span className='skillTitle'>What I do <br></br></span>
-            <span className='skillDesc' data-aos="fade-up">I'am skilled and passionate web
+            <span className='skillDesc' data-aos="fade-up">I'am skilled and passionate Web App
                 designer with experience in creating visually appealing and user-friendly wensite. I have a strong understanding of design, and sensitive eye for detail.
             </span>
             <div className="skillBars">
