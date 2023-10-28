@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 
 import UiImg from '../assets/UiImg.png';
 import WebDes from '../assets/WebDes.png';
