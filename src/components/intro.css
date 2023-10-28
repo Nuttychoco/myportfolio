@@ -70,12 +70,13 @@ section {
     outline: none;
     background-color: white;
     color: black;
-    padding: 12px 25px;
+    padding: 10px 25px;
     position: relative;
     transform: translateZ(0);
     animation-name: moveUp;
     animation-duration: 4s;
     cursor: pointer;
+    margin: 0 2rem;
 }
 
 .button::before {
@@ -290,7 +291,7 @@ section {
         outline: none;
         background-color: white;
         color: black;
-        padding: 12px 25px;
+        padding: 10px 25px;
         position: relative;
         transform: translateZ(0);
         animation-name: moveUp;
@@ -421,7 +422,7 @@ section {
         outline: none;
         background-color: white;
         color: black;
-        padding: 12px 25px;
+        padding: 10px 25px;
         position: relative;
         transform: translateZ(0);
         animation-name: moveUp;
