@@ -9,7 +9,7 @@ import mypic from '../assets/edited.png';
 import Typewriter from "typewriter-effect";
 
 
-const MyCv_FILE_URL = 'http://localhost:3000/MyCv.docx&chrisjhovincabral.com/MyCv.docx';
+const MyCv_FILE_URL = 'chrisjhovincabral.com/MyCv.docx';
 
 const Intro = () => {
 
