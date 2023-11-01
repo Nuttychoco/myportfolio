@@ -1,0 +1,11 @@
+.works {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    height: calc(110vh - 2rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

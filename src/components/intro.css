@@ -143,10 +143,10 @@ section {
 .bg {
     position: absolute;
  
-    right: 2rem;
+    right: -1rem;
     z-index: 2;
     object-fit: cover;
-    height: 70vh;
+    height: 85vh;
     width: 100vh;
     border-radius: 20%;
     animation-name: transition;
@@ -452,7 +452,7 @@ section {
 
     .bg {
         position: absolute;
-        right: -5rem;
+        right: -6rem;
         z-index: 2;
         object-fit: cover;
         height: 70vh;
@@ -582,7 +582,7 @@ section {
 
     .bg {
         position: absolute;
-        right: -5rem;
+        right: -6rem;
         z-index: 2;
         object-fit: cover;
         height: 58vh;
@@ -714,7 +714,7 @@ section {
 
     .bg {
         position: absolute;
-        right: -4rem;
+        right: -5rem;
         z-index: 2;
         object-fit: cover;
         height: 58vh;
