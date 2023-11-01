@@ -1,58 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+
+
+
 .carousel {
-    width: 60%;
-    height: 700px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    width: 100vw;
+    height: 60vh;
+    height: calc(80vh - 2rem);
+    max-width: 100%;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem auto;
+    overflow: hidden;
+    position: relative;
+    animation-name: transition;
+    animation-duration: 3s;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 490px;
     background-color: black;
 }
 
-.carouselInner {
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.carousel-item-text {
+    font-size: 1.15rem;
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+    white-space: normal;
+    color: white;
+}
+
+.carousel-img {
+    width: 250px;
+    padding: 0 20px 0 20px;
+}
+
+/* final stage */
+
+.carousel-buttons {
     display: flex;
+    justify-content: space-evenly;
 }
 
-.carouselInner .left {
-    flex: 5%;
-    height: 100%;
-    background-color: rgb(0, 0, 0, 0.6);
-    display: grid;
-    place-items: center;
+.button-arrow {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 20px;
     color: white;
+    font-size: 3vw;
+    padding: 1rem;
+
+}
+
+.button-arrow:hover {
+  color: darkred;
+
+}
+
+.indicators {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.indicator-buttons {
+    border: none;
     cursor: pointer;
 }
 
-.carouselInner .center {
-    flex: 80%;
-    height: 100%;
-    display: grid;
-    place-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    text-align-last: center;
+.indicators>button {
+    margin: 5px;
+    background: none;
 }
 
-h1 {
-    font-size: 5rem;
+.indicator-symbol {
+    color: gray;
 }
 
-p {
-    font-size: 2rem;
-}
-
-h1, p {
-    background-color: rgb(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 9px;
-}
-
-.carouselInner .right {
-    flex: 5%;
-    height: 100%;
-    background-color: rgb(0, 0, 0, 0.6);
-    display: grid;
-    place-items: center;
-    color: white;
-    cursor: pointer;
+.indicator-symbol-active {
+    color: darkred;
 }

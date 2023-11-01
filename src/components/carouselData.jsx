@@ -1,19 +1,20 @@
-import Gs from "../assets/Guard.PNG";
-import Df from "../assets/dreamfields.PNG";
-import Designfabs from "../assets/DsignFabs.PNG";
+import React, { useState, useEffect } from "react";
+import './carousel.css'
+import end from '../assets/edited.png';
 
-export const images = [
-  { title: "San Diego", subtitle: "This is San Diego", img: Gs },
-  {
-    title: "Salvador, Brazil",
-    subtitle: "The Best City in the World",
-    img: Df,
-  },
-  {
-    title: "UBC (Vancouver)",
-    subtitle: "The University of British Columbia",
-    img: Designfabs,
-  },
-];
+
+export const CarouselItem = ({ item, width }) => {
+
+
+
+
+  return (
     
-
+      <div className="carousel-item" style={{ width: width }}>
+        <div></div>
+        <img className="carousel-img" src={item.icon} />
+        <div className="carousel-item-text">{item.description}</div>
+      </div>
+    
+  );
+};
