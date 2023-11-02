@@ -2,7 +2,7 @@
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
-    height: calc(110vh - 2rem);
+    height: calc(120vh - 2rem);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,13 +63,29 @@
     font-weight: 200;
 }
 
+@media only screen and (max-width: 950px){
+    .skills {
+        overflow: hidden;
+        width: 100vw;
+        max-width: 84vw;
+        height: calc(125vh - -5rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+}
+
 
 
 @media only screen and (max-width: 832px) {
     .skills {
         overflow: hidden;
         width: 100vw;
-        max-width: 65rem;
+        max-width: 84vw;
         height: calc(120vh - 4rem);
         display: flex;
         flex-direction: column;
@@ -138,12 +154,12 @@
 
 }
 
-@media only screen and (max-width: 472px) {
+@media only screen and (max-width: 600px) {
     .skills {
         overflow: hidden;
         width: 100vw;
-        max-width: 65rem;
-        height: calc(130vh - 1rem);
+        max-width: 88vw;
+        height: calc(130vh - -5rem);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -210,12 +226,12 @@
     }
 }
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 475px) {
     .skills {
         overflow: hidden;
         width: 100vw;
-        max-width: 65rem;
-        height: calc(140vh - -2rem);
+        max-width: 96vw;
+        height: calc(140vh - -6rem);
         display: flex;
         flex-direction: column;
         align-items: center;
