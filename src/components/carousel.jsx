@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { CarouselItem } from "./carouselData";
 import "./carousel.css";
 import GS from '../assets/Guard.PNG';
@@ -14,27 +14,33 @@ const Carousel = () => {
 
   useEffect(() => {
     AOS.init({ duration: 2000 })
-}, []);
+  }, []);
 
   const [activeIndex, setActiveIndex] = useState(0);
   const items = [
     {
-      title: "Baseball",
+      title: "Guard Seraphim",
       description:
-        "Baseball is a bat-and-ball sport played between two teams of nine players each, taking turns batting and fielding. The game occurs over the course of several plays, with each play generally beginning when a player on the fielding team, called the pitcher.",
-      icon: require("../assets/edited.png"),
+        "Static, Multi-page Responsive Website.",
+      tech: "Tech used:",
+      techlogo: "tech",
+      icon: require("../assets/Guard.PNG"),
     },
     {
-      title: "Walking",
+      title: "DsignFabs",
       description:
-        "Walking (also known as ambulation) is one of the main gaits of terrestrial locomotion among legged animals. Walking is typically slower than running and other gaits. ",
+        "Static, Multi-page Responsive Website and APIdriven",
+      tech: "Tech used:",
+      techlogo: "tech use",
       icon: require("../assets/DsignFabs.PNG"),
     },
     {
-      title: "Weights",
+      title: "DreamFields",
       description:
-        "Weightlifting generally refers to activities in which people lift weights, often in the form of dumbbells or barbells. People lift various kinds of weights for a variety of different reasons.",
-      icon: require("../assets/edited.png"),
+        "Full-Stack Web Application.",
+      tech: "Tech used:",
+      techlogo: "tech use",
+      icon: require("../assets/dreamfields.PNG"),
     },
   ];
   const updateIndex = (newIndex) => {
@@ -47,7 +53,10 @@ const Carousel = () => {
     setActiveIndex(newIndex);
   };
   return (
+
+
     <div className="carousel" >
+      <h2 className="tittleText"><span className="redText">Recent</span>Project</h2>
       <div
         className="inner"
         style={{

@@ -11,15 +11,30 @@
     width: 50%;
     width: 100vw;
     height: 60vh;
-    height: calc(80vh - 2rem);
-    max-width: 100%;
-    width: 100%;
+    height: calc(100vh - 2rem);
     margin: 2rem auto;
-    padding: 2rem auto;
     overflow: hidden;
     position: relative;
     animation-name: transition;
     animation-duration: 3s;
+}
+
+
+
+.tittleText {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redText {
+    color: yellow;
+    margin-right: .5rem;
 }
 
 .inner {
@@ -32,8 +47,32 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 490px;
+    height: 350px;
     background-color: black;
+    padding: 1rem 12.5rem;
+}
+
+.carouselTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+    white-space: normal;
+    color: white;
+
+}
+
+.hr {
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+}
+
+.techText {
+    padding: 0 20px 0 20px;
+}
+
+.techLogo {
+    padding: 0 20px 0 20px;
 }
 
 .carousel-item-text {
@@ -44,9 +83,12 @@
     color: white;
 }
 
+
+
 .carousel-img {
-    width: 250px;
-    padding: 0 20px 0 20px;
+    width: 80vh;
+    height: 43vh;
+
 }
 
 /* final stage */
@@ -68,9 +110,10 @@
 }
 
 .button-arrow:hover {
-  color: darkred;
+    color: yellow;
 
 }
+
 
 .indicators {
     display: flex;
@@ -94,5 +137,5 @@
 }
 
 .indicator-symbol-active {
-    color: darkred;
+    color: yellow;
 }

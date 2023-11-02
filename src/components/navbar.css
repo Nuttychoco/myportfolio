@@ -50,7 +50,7 @@
     position: absolute;
     z-index: -1;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid darkred;
+    border-bottom: 3px solid black;
     top: 0;
     left: 0;
     right: 0;
@@ -60,7 +60,8 @@
 }
 
 .desktopMenuListItem:hover {
-    color: darkred;
+    color: yellow;
+    text-shadow: 1px 1px 2px black;
 }
 
 .desktopMenuListItem:hover::before {
@@ -75,7 +76,8 @@
 }
 
 .icons:hover {
-    color: darkred;
+    color: red;
+    text-shadow: 1px 1px 2px black;
 }
 
 
@@ -179,7 +181,7 @@
         transform: translateZ(0);
         animation-duration: 1s;
         padding-bottom: .5rem;
-        border-right: 1px solid darkred;
+        border-right: 1px solid black;
         padding-right: 5px;
         font-weight: bolder;
     }
@@ -225,7 +227,7 @@
         transform: translateZ(0);
         animation-duration: 1s;
         padding-bottom: .5rem;
-        border-right: 1px solid darkred;
+        border-right: 1px solid black;
         padding-right: 4px;
         font-weight: bolder;
     }
@@ -270,7 +272,7 @@
         transform: translateZ(0);
         animation-duration: 1s;
         padding-bottom: .5rem;
-        border-right: 1px solid darkred;
+        border-right: 1px solid black;
         padding-right: 4px;
         font-weight: bolder;
     }

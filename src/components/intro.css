@@ -44,7 +44,7 @@ section {
     animation-name: moveLeft;
     animation-duration: 4s;
     font-size: 60px;
-    color: darkred;
+    color: yellow;
 
 }
 
@@ -88,14 +88,14 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
-    background: darkred;
+    background: yellow;
     transform: scaleX(0);
     transition: 300ms ease-out;
 
 }
 
 .button:hover {
-    color: white;
+    color: darkgreen;
 }
 
 .button:hover::before {
