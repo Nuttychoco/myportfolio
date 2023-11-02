@@ -12,12 +12,12 @@ export const CarouselItem = ({ item, width }) => {
 
     <div className="carousel-item" style={{ width: width }}>
 
-      <img className="carousel-img" src={item.icon1} />
+      <img className="carousel-img" src={item.icon} />
       <div className="infoText">
-        <div className="carouselTitle">{item.title}<hr/></div>
+        <div className="carouselTitle">{item.title}</div>
+        <div className="suppText">{item.suppdes}<hr/></div>
         <div className="carousel-item-text">{item.description}</div>
-        <div className="techText">{item.tech}</div>
-        <div className="techLogo">{item.techlogo}</div>
+        
       </div>
     </div>
 

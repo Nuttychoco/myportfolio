@@ -46,20 +46,24 @@
 .carousel-item {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: row;
     height: 350px;
-    background-color: black;
+    margin-top: 3rem;
     padding: 1rem 12.5rem;
 }
 
 .carouselTitle {
     font-size: 2rem;
     font-weight: 600;
-    margin: 40px 0 40px 0;
-    padding: 0 20px 0 20px;
-    white-space: normal;
+    margin-left: 18px;
     color: white;
 
+}
+
+.suppText {
+    margin-left: 20px;  
+    margin-bottom: 5rem;
+    color: gray;
 }
 
 .hr {
@@ -85,9 +89,18 @@
 
 
 
+.techLogo1 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin-right: .5rem;
+}
+
+
+
 .carousel-img {
-    width: 80vh;
-    height: 43vh;
+    width: 90vh;
+    height: 45vh;
 
 }
 

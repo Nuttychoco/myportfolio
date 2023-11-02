@@ -10,7 +10,7 @@
     top: 0;
     z-index: 300;
     background-color: white;
-    color: black;
+    color: gray;
     box-shadow: 2px 2px 2px black;
     animation-name: transition;
     animation-duration: 5s;
@@ -60,8 +60,8 @@
 }
 
 .desktopMenuListItem:hover {
-    color: yellow;
-    text-shadow: 1px 1px 2px black;
+    color: black;
+    
 }
 
 .desktopMenuListItem:hover::before {
@@ -76,8 +76,8 @@
 }
 
 .icons:hover {
-    color: red;
-    text-shadow: 1px 1px 2px black;
+    color: black;
+   
 }
 
 

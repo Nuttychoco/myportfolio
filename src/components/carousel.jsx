@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { CarouselItem } from "./carouselData";
 import "./carousel.css";
-import GS from '../assets/Guard.PNG';
+import left from '../assets/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircle } from '@fortawesome/free-solid-svg-icons'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
@@ -22,24 +22,22 @@ const Carousel = () => {
       title: "Guard Seraphim",
       description:
         "Static, Multi-page Responsive Website.",
-      tech: "Tech used:",
-      techlogo: "tech",
+      suppdes: "Agency Web App",
+
       icon: require("../assets/Guard.PNG"),
     },
     {
-      title: "DsignFabs",
+      title: "DsignFabs Advertising",
       description:
-        "Static, Multi-page Responsive Website and APIdriven",
-      tech: "Tech used:",
-      techlogo: "tech use",
+        "Static, Multi-page Responsive Website and API driven",
+        suppdes: "Graphic Arts Industries Web App",
       icon: require("../assets/DsignFabs.PNG"),
     },
     {
-      title: "DreamFields",
+      title: "Dream Fields",
       description:
         "Full-Stack Web Application.",
-      tech: "Tech used:",
-      techlogo: "tech use",
+        suppdes: "Real Estate Web App",
       icon: require("../assets/dreamfields.PNG"),
     },
   ];
