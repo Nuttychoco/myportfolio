@@ -1,13 +1,17 @@
 import React from 'react'
 import './footer.css';
+import iconR from '../assets/react.png';
+import iconJ from '../assets/js.png';
 
 export const Footer = () => {
     return (
         <footer className='footer'>
-            <div className='footerBody'>
-                <h1>asdasd</h1>
+            <h1 className='name'>cj<span className='dashRed'>-</span>cabral<span className='dashRed'>.</span></h1>
 
-            </div>
+            <p className='centerText'>Tech used:  <img src={iconR} alt="" className='footerLogo' /> <img src={iconJ} alt="" className='footerLogo' /></p>
+
+            <p className='rightText'>@2023 All right reserved</p>
+
         </footer>
     )
 }
