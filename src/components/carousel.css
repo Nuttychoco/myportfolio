@@ -11,12 +11,11 @@
     width: 50%;
     width: 100vw;
     height: 60vh;
-    height: calc(100vh - 2rem);
+    height: calc(100vh - 1rem);
     margin: 2rem auto;
     overflow: hidden;
     position: relative;
-    animation-name: transition;
-    animation-duration: 3s;
+    
 }
 
 
@@ -24,8 +23,8 @@
 .tittleText {
     font-size: 3rem;
     font-weight: 600;
-    padding-top: 3rem;
-    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +45,7 @@
 .carousel-item {
     display: inline-flex;
     align-items: center;
-    justify-content: row;
+    justify-content: center;
     height: 350px;
     margin-top: 3rem;
     padding: 1rem 12.5rem;
@@ -151,4 +150,9 @@
 
 .indicator-symbol-active {
     color: yellow;
+}
+
+
+@media only screen and (max-width: 386px) {
+
 }

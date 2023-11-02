@@ -2,8 +2,6 @@ section {
     height: calc(80vh - 4rem);
     max-width: 100%;
     width: 100%;
-    background-color: black;
-    background-size: cover;
     margin:2rem auto ;
     overflow: hidden;
     position: relative;
@@ -95,7 +93,7 @@ section {
 }
 
 .button:hover {
-    color: darkgreen;
+    color: goldenrod;
 }
 
 .button:hover::before {
