@@ -34,13 +34,15 @@ function App() {
       ) :
         <div>
           <Navbar />
-          <Intro />
-          <Skills />
-          <div data-aos="fade-up">
-            <Carousel />
+          <div className='homepage'>
+            <Intro />
+            <Skills />
+            <div data-aos="fade-up">
+              <Carousel />
+            </div>
+            <hr />
+            <Footer />
           </div>
-          <hr />
-          <Footer />
         </div>
       }
 
