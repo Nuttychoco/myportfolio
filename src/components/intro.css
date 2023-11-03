@@ -203,7 +203,7 @@
 
 @media only screen and (max-width: 1281px) {
     .intro {
-        height: auto;
+        height: 35vh;
         max-width: 100%;
         width: 100%;
         margin: 2rem auto;
@@ -306,11 +306,26 @@
 @media only screen and (max-width: 1035px) {
     .home-intro {
         padding: 1rem 5rem;
+        height: auto;
     }
 }
 
 @media only screen and (max-width: 650px) {
+    .intro {
+       
+        max-width: 100%;
+        width: 100%;
+        margin: 2rem auto;
+        overflow: hidden;
+        position: relative;
+        animation-name: transition;
+        animation-duration: 3s;
+        
+    }
+    
+    
     .home-intro {
+        height: auto;
         padding: 1rem 2rem;
     }
 
