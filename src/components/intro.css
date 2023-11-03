@@ -6,6 +6,8 @@
     position: relative;
     animation-name: transition;
     animation-duration: 3s;
+    background-color: black;
+    margin-top: 3rem ;
 }
 
 .home-intro {

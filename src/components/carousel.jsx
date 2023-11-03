@@ -30,14 +30,14 @@ const Carousel = () => {
       title: "DsignFabs Advertising",
       description:
         "Static, Multi-page Responsive Website and API driven",
-        suppdes: "Graphic Arts Industries Web App",
+      suppdes: "Graphic Arts Industries Web App",
       icon: require("../assets/DsignFabs.PNG"),
     },
     {
       title: "Dream Fields",
       description:
         "Full-Stack Web Application.",
-        suppdes: "Real Estate Web App",
+      suppdes: "Real Estate Web App",
       icon: require("../assets/dreamfields.PNG"),
     },
   ];
