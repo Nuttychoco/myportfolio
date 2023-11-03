@@ -30,7 +30,7 @@ const Intro = () => {
         titleThree: "Chris Jhovin",
     });
     return (
-        <section>
+        <section className='intro'>
             <div className="home-intro">
                 <h2>
                     <div className="title">{state.title} </div>

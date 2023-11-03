@@ -1,13 +1,13 @@
 .skills {
+    position: relative;
     overflow: hidden;
-    width: 100vw;
-    max-width: 65rem;
-    height: calc(120vh - 2rem);
+    height: calc(85vh - -3rem);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 1rem 12rem;
 
 }
 
@@ -63,213 +63,18 @@
     font-weight: 200;
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 1281px) {
     .skills {
+        position: relative;
         overflow: hidden;
-        width: 100vw;
-        max-width: 84vw;
-        height: calc(125vh - -5rem);
+        height: calc(80vh - 2rem);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
 
-    }
-
-}
-
-
-
-@media only screen and (max-width: 832px) {
-    .skills {
-        overflow: hidden;
-        width: 100vw;
-        max-width: 84vw;
-        height: calc(120vh - 4rem);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
 
     }
 
-    .skillTitle {
-        font-size: 2rem;
-        font-weight: 600;
-        padding-top: 3rem;
-        margin-bottom: 1.5rem;
-
-    }
-
-    .skillDesc {
-        text-align: justify;
-        text-justify: inter-word;
-        text-indent: 3em;
-        font-weight: 400;
-        font-size: 1rem;
-
-        padding: 0 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .skillBarImg {
-        object-fit: cover;
-        height: 3rem;
-        width: 3rem;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: 1.5rem;
-        padding: auto auto;
-
-    }
-
-    .skillBar {
-
-        margin: 1.5rem;
-        padding: 1rem 12rem;
-        max-width: 100%;
-        text-align: left;
-    }
-
-    .skillBar {
-
-        display: flex;
-        margin: 1rem;
-        padding: 1.5rem 2rem;
-        border-radius: 0.5rem;
-        background: rgb(50, 50, 50);
-        transition: 3s;
-    }
-
-    .skillBarText>h2 {
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    .skillBarText>p {
-        font-size: .8rem;
-        font-weight: 200;
-    }
-
-}
-
-@media only screen and (max-width: 600px) {
-    .skills {
-        overflow: hidden;
-        width: 100vw;
-        max-width: 88vw;
-        height: calc(130vh - -5rem);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-
-    }
-
-    .skillTitle {
-        font-size: 2rem;
-        font-weight: 600;
-        padding-top: 3rem;
-        margin-bottom: 1.5rem;
-
-    }
-
-    .skillDesc {
-        text-align: justify;
-        text-justify: inter-word;
-        text-indent: 3em;
-        font-weight: 400;
-        font-size: 1rem;
-
-        padding: 0 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .skillBarImg {
-        object-fit: cover;
-        height: 3rem;
-        width: 3rem;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: 1.5rem;
-        padding: auto auto;
-
-    }
-
-    .skillBar {
-
-        margin: 1.5rem;
-        padding: 1rem 12rem;
-        max-width: 100%;
-        text-align: left;
-    }
-
-    .skillBar {
-
-        display: flex;
-        margin: 1rem;
-        padding: 1.5rem 2rem;
-        border-radius: 0.5rem;
-        background: rgb(50, 50, 50);
-        transition: 3s;
-    }
-
-    .skillBarText>h2 {
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    .skillBarText>p {
-        font-size: .8rem;
-        font-weight: 200;
-    }
-}
-
-
-
-
-@media only screen and (max-width: 475px) {
-    .skills {
-        overflow: hidden;
-        width: 100vw;
-        max-width: 96vw;
-        height: calc(140vh - -6rem);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-
-    }
-}
-
-@media only screen and (max-width: 365px) {
-    .skills {
-        overflow: hidden;
-        width: 100vw;
-        max-width: 65rem;
-        height: calc(150vh - -5rem);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-
-    }
-}
-
-@media only screen and (max-width: 338px) {
-    .skills {
-        overflow: hidden;
-        width: 100vw;
-        max-width: 65rem;
-        height: calc(160vh - -9rem);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-
-    }
 }
