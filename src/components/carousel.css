@@ -11,8 +11,8 @@
     width: 100vw;
     height: calc(100vh - 1rem);
     overflow: hidden;
-    
-    
+
+
 }
 
 
@@ -57,7 +57,7 @@
 }
 
 .suppText {
-    margin-left: 20px;  
+    margin-left: 20px;
     margin-bottom: 5rem;
     color: gray;
     font-size: 1rem;
@@ -73,9 +73,6 @@
     padding: 0 20px 0 20px;
 }
 
-.techLogo {
-    padding: 0 20px 0 20px;
-}
 
 .carousel-item-text {
     font-size: 1.15rem;
@@ -113,7 +110,7 @@
     cursor: pointer;
     margin-top: 20px;
     color: white;
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 1rem;
 
 }
@@ -172,8 +169,104 @@
         justify-content: center;
         align-items: center;
     }
+
     .carousel-img {
         width: 40vw;
         height: 25vw;
     }
+}
+
+
+@media only screen and (max-width: 1035px) {
+    .carousel {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        margin: .5rem auto;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        width: 100w;
+    }
+
+    .tittleText {
+        font-size: 9vw;
+        font-weight: 600;
+        padding-top: 1rem;
+        margin-bottom: .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .carousel {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        margin: .5rem auto;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        width: 100w;
+    }
+
+    .carousel-item {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin-top: 3rem;
+        padding: 1rem 2rem;
+    }
+
+    .tittleText {
+        font-size: 8vw;
+        font-weight: 600;
+        padding-top: 1rem;
+        margin-bottom: .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .carousel-img {
+        width: 85vw;
+        height: 43vw;
+    }
+
+
+    .carouselTitle {
+        font-size: 6vw;
+        font-weight: 600;
+
+        color: white;
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+    }
+
+    .suppText {
+        margin-left: 20px;
+        margin-bottom: 2rem;
+        color: gray;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .hr {
+        margin: 40px 0 40px 0;
+        padding: 0 20px 0 20px;
+    }
+ 
+
 }
