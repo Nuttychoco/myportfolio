@@ -1,8 +1,14 @@
 import React from 'react'
+import './project.css'
 
 export const Project = () => {
   return (
-    <div>Project</div>
+    <section className='projectPage'>
+<div className='title2'>
+<h2 className="projectTitle"><span className="yellowText">Recent</span>Project</h2>
+</div>
+
+    </section>
   )
 }
 

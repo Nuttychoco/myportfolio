@@ -28,6 +28,18 @@
     margin-bottom: 2rem;
 }
 
+.skillsLogo {
+    object-fit: cover;
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    margin: 2px;
+    position: relative;
+    top: 5px;
+
+}
+
+
 .skillBarImg {
     object-fit: cover;
     height: 3rem;
@@ -61,6 +73,8 @@
     font-size: 1rem;
     font-weight: 200;
 }
+
+
 
 @media only screen and (max-width: 1281px) {
     .skills {
