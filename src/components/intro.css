@@ -203,6 +203,118 @@
 
 }
 
+
+@media only screen and (min-width: 2560px) {
+    .intro {
+        height: calc(95vh - 4rem);
+        max-width: 100%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        animation-name: transition;
+        animation-duration: 3s;
+        background-color: black;
+        margin-top: 3rem ;
+    }
+    
+    .home-intro {
+        position: absolute;
+        margin: 0 auto;
+        padding: 1rem 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        z-index: 10;
+    
+    }
+    
+    
+    
+    .title {
+        animation-name: moveRight;
+        animation-duration: 3s;
+        font-size: 3vw;
+        margin-top: 4rem;
+    }
+    
+    .titleTwo {
+    
+        animation-name: moveLeft;
+        animation-duration: 4s;
+        font-size: 4vw;
+        color: yellow;
+    
+    }
+    
+    .titleThree {
+        animation-name: moveRight;
+        animation-duration: 4.5s;
+        margin-bottom: 10px;
+        font-size: 5vw;
+        z-index: 5;
+    }
+    
+    .text {
+        font-size: 3vw;
+        color: white;
+        margin-bottom: 20px;
+        z-index: 4;
+    }
+    
+    .button {
+        font-size: 2vw;
+        border: none;
+        border-radius: 1vw;
+        outline: none;
+        background-color: white;
+        color: black;
+        padding: 1vw 1vw;
+        position: relative;
+        transform: translateZ(0);
+        animation-name: moveUp;
+        animation-duration: 4s;
+        cursor: pointer;
+        margin: 0 2rem;
+    }
+
+    .button::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        border-radius: 1vw;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: yellow;
+        transform: scaleX(0);
+        transition: 300ms ease-out;
+    
+    }
+
+    .bg {
+        position: absolute;
+        right: 1rem;
+        z-index: 2;
+        object-fit: cover;
+        height: 50vw;
+        width: 50vw;
+        border-radius: 20%;
+    }
+    
+    .mypic {
+        position: absolute;
+        right: 15em;
+        z-index: 2;
+        height: 40vw;
+        width: 25vw;
+    }
+
+}
+
+
 @media only screen and (max-width: 1281px) {
     .intro {
         height: 35vh;
