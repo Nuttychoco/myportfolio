@@ -17,7 +17,7 @@ const Skills = () => {
     return (
         <section className='skills'>
             <span className='skillTitle'>What I do <br></br></span>
-            <span className='skillDesc' data-aos="fade-up">Proficient in an assortment of technologies, including c++, C# HTML5, CSS3, Javascript, React.Js, PHP, Laravel, and MySQL. Able to efficiently self-manage during independent projects, as well as collaborate in a team setting.
+            <span className='skillDesc' data-aos="fade-up">Proficient in an assortment of technologies, including c++, C#, HTML5, CSS3, Javascript, React.Js, PHP, Laravel, and MySQL. Able to efficiently self-manage during independent projects, as well as collaborate in a team setting.
             </span>
             <div className="skillBars">
                 <div className="skillBar" data-aos="fade-up">
