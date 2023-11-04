@@ -7,7 +7,7 @@
     animation-name: transition;
     animation-duration: 3s;
     background-color: black;
-    margin-top: 3rem ;
+    margin-top: 3rem;
 }
 
 .home-intro {
@@ -214,9 +214,9 @@
         animation-name: transition;
         animation-duration: 3s;
         background-color: black;
-        margin-top: 3rem ;
+        margin-top: 3rem;
     }
-    
+
     .home-intro {
         position: absolute;
         margin: 0 auto;
@@ -227,27 +227,27 @@
         align-items: flex-start;
         color: white;
         z-index: 10;
-    
+
     }
-    
-    
-    
+
+
+
     .title {
         animation-name: moveRight;
         animation-duration: 3s;
         font-size: 3vw;
         margin-top: 4rem;
     }
-    
+
     .titleTwo {
-    
+
         animation-name: moveLeft;
         animation-duration: 4s;
         font-size: 4vw;
         color: yellow;
-    
+
     }
-    
+
     .titleThree {
         animation-name: moveRight;
         animation-duration: 4.5s;
@@ -255,14 +255,14 @@
         font-size: 5vw;
         z-index: 5;
     }
-    
+
     .text {
         font-size: 3vw;
         color: white;
         margin-bottom: 20px;
         z-index: 4;
     }
-    
+
     .button {
         font-size: 2vw;
         border: none;
@@ -291,7 +291,7 @@
         background: yellow;
         transform: scaleX(0);
         transition: 300ms ease-out;
-    
+
     }
 
     .bg {
@@ -303,7 +303,7 @@
         width: 50vw;
         border-radius: 20%;
     }
-    
+
     .mypic {
         position: absolute;
         right: 15em;
@@ -325,7 +325,7 @@
         position: relative;
         animation-name: transition;
         animation-duration: 3s;
-        
+
     }
 
     .home-intro {
@@ -426,7 +426,7 @@
 
 @media only screen and (max-width: 650px) {
     .intro {
-       
+
         max-width: 100%;
         width: 100%;
         margin: 2rem auto;
@@ -434,10 +434,10 @@
         position: relative;
         animation-name: transition;
         animation-duration: 3s;
-        
+
     }
-    
-    
+
+
     .home-intro {
         height: auto;
         padding: 1rem 2rem;
@@ -468,7 +468,11 @@
 
 
 @media only screen and (max-width: 510px) {
-  
+
+    .home-intro {
+        height: auto;
+        padding: 1rem 2rem;
+    }
 
     .title {
         animation-name: moveRight;
@@ -478,7 +482,7 @@
 
     .titleTwo {
         font-size: 50px;
-   
+
 
     }
 
@@ -494,9 +498,16 @@
     }
 
     .button {
-        font-size: 20px; 
-        margin: .5rem 1rem;
-        padding: 8px 20px;
+        font-size: 1rem;
+        margin: .5rem .5rem;
+        padding: 8px 15px;
+
     }
 
+    .contact-me {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
 }

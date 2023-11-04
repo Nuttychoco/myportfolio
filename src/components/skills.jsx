@@ -31,7 +31,7 @@ const Skills = () => {
                     <img src={WebDes} alt="" className='skillBarImg' />
                     <div className='skillBarText'>
                         <h2>Website Developer</h2>
-                        <p>I'am proficiency in front-end Html or frameworks like React for building interactive web applications and i'll make sure it has Responsive web design to ensure websites work well on various devices and screen sizes.</p>
+                        <p>I'm proficiency in front-end Html or frameworks like React for building interactive web applications and i'll make sure it has Responsive web design to ensure websites work well on various devices and screen sizes.</p>
                     </div>
                 </div>
                 <div className="skillBar" data-aos="flip-left">
