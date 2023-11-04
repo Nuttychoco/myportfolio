@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
 import PreLoader from './components/Preloader'
 import logo from '../src/assets/logo.png';
@@ -32,11 +32,11 @@ function App() {
         <div>
           <Router>
             <nav className="navbar">
-              <Link to="/"><img src={logo} alt="Home" className='logo' /></Link>
+              <NavLink to="/"><img src={logo} alt="Home" className='logo' /></NavLink>
               <div className="desktopMenu">
-                <Link to="/project" className='desktopMenuListItem' >Project</Link>
-                <Link to="/experience" className='desktopMenuListItem' >Experience</Link>
-                <Link to="/contact" className='desktopMenuListItem' >Contact</Link>
+                <NavLink  to="/project" className='desktopMenuListItem' >Project</NavLink>
+                <NavLink  to="/experience"  className='desktopMenuListItem' >Experience</NavLink>
+                <NavLink  to="/contact"  className='desktopMenuListItem' >Contact</NavLink>
               </div>
               <div>
                 <FontAwesomeIcon className='icons' icon={faGithub} />
@@ -53,7 +53,7 @@ function App() {
                 <Route path="*" element={<ErrorPage />} />
               </Routes>
               <hr />
-            <Footer />
+              <Footer />
             </div>
           </Router>
         </div>
