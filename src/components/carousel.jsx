@@ -19,6 +19,13 @@ const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const items = [
     {
+      title: "KNDT Arabia",
+      description:
+        "Static, Multi-page Application and SQL driven.",
+      suppdes: "Inventory App",
+      icon: require("../assets/Kndt.PNG"),
+    },
+    {
       title: "Guard Seraphim",
       description:
         "Static, Multi-page Responsive Website.",
@@ -40,6 +47,21 @@ const Carousel = () => {
       suppdes: "Real Estate Web App",
       icon: require("../assets/dreamfields.PNG"),
     },
+    {
+      title: "Chode",
+      description:
+        "Static, Multi-page Responsive Website and API driven.",
+      suppdes: "Tour Guide Web App",
+      icon: require("../assets/Chode.PNG"),
+    },
+    {
+      title: "Foodpad",
+      description:
+        "Static, Multi-page Responsive Website and API driven.",
+      suppdes: "Fast Food Web App",
+      icon: require("../assets/Foodpad.PNG"),
+    },
+   
   ];
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
