@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .redText {
@@ -147,6 +147,34 @@
 }
 
 
+
+@media only screen and (min-width: 2560px) {
+    .carousel {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding-top: 5rem;
+        overflow: hidden;
+        position: relative;
+        width: 50%;
+        width: 100vw;
+    }
+
+    .tittleText {
+        font-size: 3rem;
+        font-weight: 600;
+        padding-top: 1rem;
+        margin-bottom: 14rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+}
+
 @media only screen and (max-width: 1281px) {
     .carousel {
         overflow: hidden;
@@ -267,6 +295,6 @@
         margin: 40px 0 40px 0;
         padding: 0 20px 0 20px;
     }
- 
+
 
 }
