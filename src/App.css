@@ -171,9 +171,23 @@
         animation-name: transition;
         animation-duration: 5s;
     }
+
+
+    
 }
 
-
+@media only screen and (max-width: 750px){
+    .cjText {
+        font-size: 1.2rem;
+        color: white
+    }
+    
+    .seText {
+        color: gray;
+        font-size: .7rem;
+        font-weight: 200;
+    }
+}
 
 
 @media only screen and (max-width: 650px) {
@@ -190,13 +204,7 @@
 
     }
 
-    .logo {
-        object-fit: cover;
-        height: 2.5rem;
-        width: 4.1rem;
-        cursor: pointer;
-
-    }
+   
 
     .desktopMenuListItem {
         font-size: 15px;
@@ -218,15 +226,16 @@
     }
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 500px) {
     .navbar {
-        height: 4rem;
+        height: auto;
         width: 100vw;
         max-width: 30rem;
         margin: 0 auto;
-        padding: .1rem 1rem;
+        padding: .5rem 1rem;
         display: flex;
-        align-items: center;
+        align-items: start;
+        flex-direction: column;
         justify-content: space-between;
         position: sticky;
         top: 0;
@@ -234,17 +243,22 @@
 
     }
 
-    .logo {
-        object-fit: cover;
-        height: 3rem;
-        width: 5rem;
-        cursor: pointer;
-
+    .cjText {
+        font-size: 1rem;
+        color: white
+    }
+    
+    .seText {
+        color: gray;
+        font-size: .8rem;
+        font-weight: 200;
+        margin-bottom: .5rem;
     }
 
+
     .desktopMenuListItem {
-        font-size: 13px;
-        margin: 3px;
+        font-size: 15px;
+        margin: 7px;
         cursor: pointer;
         position: relative;
         transform: translateZ(0);
@@ -253,102 +267,14 @@
         border-right: 1px solid black;
         padding-right: 5px;
         font-weight: bolder;
+       
     }
 
     .icons {
         font-size: 1.5rem;
-        margin: .3rem;
+        margin: 1rem;
         cursor: pointer;
     }
 }
 
 
-@media only screen and (max-width: 386px) {
-    .navbar {
-        height: 4rem;
-        width: 100vw;
-        max-width: 30rem;
-        margin: 0 auto;
-        padding: .1rem 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: sticky;
-        top: 0;
-        z-index: 300;
-
-
-    }
-
-    .logo {
-        object-fit: cover;
-        height: 2.5rem;
-        width: 4.1rem;
-        cursor: pointer;
-
-    }
-
-    .desktopMenuListItem {
-        font-size: 13px;
-        margin: 2px;
-        cursor: pointer;
-        position: relative;
-        transform: translateZ(0);
-        animation-duration: 1s;
-        padding-bottom: .5rem;
-        border-right: 1px solid black;
-        padding-right: 4px;
-        font-weight: bolder;
-    }
-
-    .icons {
-        font-size: 1.5rem;
-        margin: .3rem;
-        cursor: pointer;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    .navbar {
-        height: 4rem;
-        width: 100vw;
-        max-width: 30rem;
-        margin: 0 auto;
-        padding: .1rem 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: sticky;
-        top: 0;
-        z-index: 300;
-
-
-    }
-
-    .logo {
-        object-fit: cover;
-        height: 2.1rem;
-        width: 3.4rem;
-        cursor: pointer;
-
-    }
-
-    .desktopMenuListItem {
-        font-size: 10px;
-        margin: 2px;
-        cursor: pointer;
-        position: relative;
-        transform: translateZ(0);
-        animation-duration: 1s;
-        padding-bottom: .5rem;
-        border-right: 1px solid black;
-        padding-right: 4px;
-        font-weight: bolder;
-    }
-
-    .icons {
-        font-size: 1.2rem;
-        margin: .3rem;
-        cursor: pointer;
-    }
-}
