@@ -1,0 +1,32 @@
+.AllProjects {
+    height: calc(95vh - 4rem);
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    animation-name: transition;
+    animation-duration: 3s;
+    margin-top: 3rem;
+   
+}
+
+.recentProject {
+    position: absolute;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+
+.project1 {
+    position: absolute;
+}
+
+.projectimg1 {
+    position: absolute;
+    width: 40rem;
+    height: 45rem;
+}

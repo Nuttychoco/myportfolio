@@ -19,17 +19,16 @@ function Home() {
 
   return (
     <div>
-
-      <div>
-        <div className='homepage'>
-          <Intro />
-          <Skills />
-          <div data-aos="fade-up">
-            <Carousel />
-          </div>
-        </div>
+      <div className='homepage'>
+        <Intro />
+        <Skills />
       </div>
+      <div data-aos="fade-up">
+        <Carousel />
+      </div>
+
     </div>
+
   );
 }
 

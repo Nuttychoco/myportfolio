@@ -3,7 +3,7 @@
 
 
 .navbar {
-    height: 5.5rem;
+    height: 5.4rem;
     width: 100vw;
     margin: 0 auto;
     padding: 1rem 12rem;
@@ -18,9 +18,23 @@
     box-shadow: 2px 2px 2px black;
     animation-name: transition;
     animation-duration: 5s;
+    box-shadow: 1px 1px 4px gray;
 }
 
+.cjText {
+    font-size: 1.5rem;
+    color: white
+}
 
+.seText {
+    color: gray;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.yellowText3 {
+    color: yellow;
+}
 
 @keyframes transition {
     0% {
@@ -35,8 +49,8 @@
 
 .logo {
     object-fit: cover;
-    height: 3.3rem;
-    width: 5.5rem;
+    height: 3.4rem;
+    width: 5.7rem;
     cursor: pointer;
 
 

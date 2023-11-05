@@ -1,50 +1,41 @@
-.intro {
-    height: calc(95vh - 4rem);
-    max-width: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    animation-name: transition;
-    animation-duration: 3s;
-    background-color: black;
-    margin-top: 3rem;
-}
-
 .home-intro {
-    position: absolute;
-    margin: 0 auto;
-    padding: 1rem 12rem;
+    position: relative;
+    margin: 4rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     color: white;
-    z-index: 10;
-
+    height: auto;
+  
 }
-
 
 
 .title {
     animation-name: moveRight;
-    animation-duration: 3s;
-    font-size: 30px;
+    animation-duration: 3.5s;
+    font-size: 40px;
+    font-weight: 400;
+    z-index: 5;
+    animation: animateUser 4s linear infinite;
 }
 
 .titleTwo {
-
     animation-name: moveLeft;
     animation-duration: 4s;
-    font-size: 60px;
+    font-size: 70px;
+    font-weight: 600;
     color: yellow;
-
+    z-index: 5;
 }
+
+
 
 .titleThree {
     animation-name: moveRight;
     animation-duration: 4.5s;
     margin-bottom: 10px;
-    font-size: 70px;
+    font-size: 80px;
     z-index: 5;
 }
 
@@ -52,10 +43,11 @@
     font-size: 40px;
     color: white;
     margin-bottom: 20px;
-    z-index: 4;
+    z-index: 5;
 }
 
 .button {
+
     font-size: 16px;
     border: none;
     border-radius: 8px;
@@ -69,6 +61,7 @@
     animation-duration: 4s;
     cursor: pointer;
     margin: 0 2rem;
+    z-index: 5;
 }
 
 .button::before {
@@ -97,33 +90,80 @@
 
 
 
-
-.bg {
-    position: absolute;
-    right: 1rem;
-    z-index: 2;
-    object-fit: cover;
-    height: 85vh;
-    width: 100vh;
-    border-radius: 20%;
-    animation-name: transition;
-    animation-duration: 6s;
-
-}
-
 .mypic {
     position: absolute;
-    right: 15em;
-    z-index: 2;
-    height: 70vh;
-    width: 40vh;
-    animation-name: transition;
-    animation-duration: 7s;
+    right: 10em;
+    z-index: 4;
+    height: 30vw;
+    width: 17vw;
+    object-fit: cover;
+    animation-duration: 3s;
+    animation-name: moveUp;
+   
+    
 }
 
 .moving {
     animation: animateUser 4s linear infinite;
 }
+
+
+@media only screen and (max-width: 1280px) {
+
+
+
+    
+    .mypic {
+        position: absolute;
+        right: 0rem;
+        z-index: 4;
+        height: 35vw;
+        width: 20vw;
+        object-fit: cover;
+        animation-duration: 3s;
+        animation-name: moveUp;
+       
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes transition {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+
 
 @keyframes moveRight {
     0% {
@@ -161,17 +201,6 @@
     }
 }
 
-@keyframes transition {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-
-    }
-}
-
 
 
 
@@ -201,313 +230,4 @@
         bottom: 5px
     }
 
-}
-
-
-@media only screen and (min-width: 2560px) {
-    .intro {
-        height: calc(95vh - 4rem);
-        max-width: 100%;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        animation-name: transition;
-        animation-duration: 3s;
-        background-color: black;
-        margin-top: 3rem;
-    }
-
-    .home-intro {
-        position: absolute;
-        margin: 0 auto;
-        padding: 1rem 12rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        color: white;
-        z-index: 10;
-
-    }
-
-
-
-    .title {
-        animation-name: moveRight;
-        animation-duration: 3s;
-        font-size: 3vw;
-        margin-top: 4rem;
-    }
-
-    .titleTwo {
-
-        animation-name: moveLeft;
-        animation-duration: 4s;
-        font-size: 4vw;
-        color: yellow;
-
-    }
-
-    .titleThree {
-        animation-name: moveRight;
-        animation-duration: 4.5s;
-        margin-bottom: 10px;
-        font-size: 5vw;
-        z-index: 5;
-    }
-
-    .text {
-        font-size: 3vw;
-        color: white;
-        margin-bottom: 20px;
-        z-index: 4;
-    }
-
-    .button {
-        font-size: 2vw;
-        border: none;
-        border-radius: 1vw;
-        outline: none;
-        background-color: white;
-        color: black;
-        padding: 1vw 1vw;
-        position: relative;
-        transform: translateZ(0);
-        animation-name: moveUp;
-        animation-duration: 4s;
-        cursor: pointer;
-        margin: 0 2rem;
-    }
-
-    .button::before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        border-radius: 1vw;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: yellow;
-        transform: scaleX(0);
-        transition: 300ms ease-out;
-
-    }
-
-    .bg {
-        position: absolute;
-        right: 1rem;
-        z-index: 2;
-        object-fit: cover;
-        height: 50vw;
-        width: 50vw;
-        border-radius: 20%;
-    }
-
-    .mypic {
-        position: absolute;
-        right: 15em;
-        z-index: 2;
-        height: 40vw;
-        width: 25vw;
-    }
-
-}
-
-
-@media only screen and (max-width: 1281px) {
-    .intro {
-        height: 35vh;
-        max-width: 100%;
-        width: 100%;
-        margin: 2rem auto;
-        overflow: hidden;
-        position: relative;
-        animation-name: transition;
-        animation-duration: 3s;
-
-    }
-
-    .home-intro {
-        position: absolute;
-        width: 50%;
-        width: 100vw;
-        height: auto;
-        max-width: 75rem;
-        margin: auto auto;
-        padding: auto 12rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        color: white;
-        z-index: 10;
-        padding-bottom: 10vh;
-
-    }
-
-
-    .title {
-        animation-name: moveRight;
-        animation-duration: 3s;
-        font-size: 28px;
-    }
-
-    .titleTwo {
-
-        animation-name: moveLeft;
-        animation-duration: 4s;
-        font-size: 50px;
-
-    }
-
-    .titleThree {
-        animation-name: moveRight;
-        animation-duration: 4.5s;
-        margin-bottom: 10px;
-        font-size: 60px;
-        z-index: 5;
-    }
-
-    .text {
-        font-size: 40px;
-        color: white;
-        margin-bottom: 10px;
-        z-index: 4;
-    }
-
-    .button {
-        font-size: 16px;
-        font-weight: bold;
-        border: none;
-        border-radius: 8px;
-        outline: none;
-        background-color: white;
-        color: black;
-        padding: 10px 25px;
-        position: relative;
-        transform: translateZ(0);
-        animation-name: moveUp;
-        animation-duration: 4s;
-        cursor: pointer;
-    }
-
-
-    .bg {
-        position: absolute;
-        right: 4rem;
-        z-index: 2;
-        object-fit: cover;
-        height: 40vh;
-        width: 40vh;
-        border-radius: 20%;
-        animation-name: transition;
-        animation-duration: 5s;
-
-    }
-
-    .mypic {
-        position: absolute;
-        right: 12rem;
-        z-index: 2;
-        height: 35vh;
-        width: 20vh;
-
-    }
-}
-
-
-@media only screen and (max-width: 1035px) {
-    .home-intro {
-        padding: 1rem 5rem;
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .intro {
-
-        max-width: 100%;
-        width: 100%;
-        margin: 2rem auto;
-        overflow: hidden;
-        position: relative;
-        animation-name: transition;
-        animation-duration: 3s;
-
-    }
-
-
-    .home-intro {
-        height: auto;
-        padding: 1rem 2rem;
-    }
-
-    .bg {
-        position: absolute;
-        right: -1rem;
-        z-index: 2;
-        object-fit: cover;
-        height: 35vh;
-        width: 35vh;
-        border-radius: 20%;
-        animation-name: transition;
-        animation-duration: 5s;
-
-    }
-
-    .mypic {
-        position: absolute;
-        right: 4rem;
-        z-index: 2;
-        height: 35vh;
-        width: 20vh;
-
-    }
-}
-
-
-@media only screen and (max-width: 510px) {
-
-    .home-intro {
-        height: auto;
-        padding: 1rem 2rem;
-    }
-
-    .title {
-        animation-name: moveRight;
-        animation-duration: 3s;
-        font-size: 28px;
-    }
-
-    .titleTwo {
-        font-size: 50px;
-
-
-    }
-
-    .titleThree {
-        margin-bottom: 10px;
-        font-size: 40px;
-        z-index: 5;
-    }
-
-    .text {
-        font-size: 28px;
-        margin-bottom: 10px;
-    }
-
-    .button {
-        font-size: 1rem;
-        margin: .5rem .5rem;
-        padding: 8px 15px;
-
-    }
-
-    .contact-me {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-    }
 }

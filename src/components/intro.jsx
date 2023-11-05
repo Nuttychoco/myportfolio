@@ -53,14 +53,8 @@ const Intro = () => {
                     <button className='button'><FontAwesomeIcon icon={faBriefcase} /> Hire Me!</button>
                     <button className='button' onClick={() => { downloadFileAtURL(MyCv_FILE_URL) }}><FontAwesomeIcon icon={faUserTie} /> Download CV</button>
                 </div>
-
+                <img src={mypic} alt="" className='mypic ' />
             </div>
-
-            <img src={bg} alt="" className='bg' />
-
-            <img src={mypic} alt="" className='mypic moving' />
-
-
         </section>
     )
 }

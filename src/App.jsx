@@ -32,11 +32,19 @@ function App() {
         <div>
           <Router>
             <nav className="navbar">
-              <NavLink to="/"><img src={logo} alt="Home" className='logo' /></NavLink>
+              <div>
+                <NavLink to="/">
+                 <div className='cjText'> cj<span className='yellowText3'>-</span>cabral<span className='yellowText3'>.</span></div>
+                  <div className='seText'>
+                    Software Engineer
+                  </div>
+                </NavLink>
+
+              </div>
               <div className="desktopMenu">
-                <NavLink  to="/project" className='desktopMenuListItem' >Project</NavLink>
-                <NavLink  to="/experience"  className='desktopMenuListItem' >Experience</NavLink>
-                <NavLink  to="/contact"  className='desktopMenuListItem' >Contact</NavLink>
+                <NavLink to="/project" className='desktopMenuListItem' >Project</NavLink>
+                <NavLink to="/experience" className='desktopMenuListItem' >Experience</NavLink>
+                <NavLink to="/contact" className='desktopMenuListItem' >Contact</NavLink>
               </div>
               <div>
                 <FontAwesomeIcon className='icons' icon={faGithub} />
@@ -52,7 +60,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<ErrorPage />} />
               </Routes>
-              <hr />
+
               <Footer />
             </div>
           </Router>

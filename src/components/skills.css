@@ -1,13 +1,12 @@
 .skills {
     position: relative;
     overflow: hidden;
-    height: calc(85vh - -7rem);
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    padding: 1rem 12rem;
+    text-align: center; 
 
 }
 
@@ -15,6 +14,7 @@
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
+    position: relative;
 }
 
 .skillDesc {
@@ -78,7 +78,7 @@
 
 @media only screen and (max-width: 1281px) {
     .skills {
-        height: calc(70vh - -7rem);
+        height: auto;
 
     }
 
@@ -87,16 +87,13 @@
 @media only screen and (max-width: 1035px) {
     .skills {
         height: calc(65vh - -12rem);
-        padding: 1rem 5rem;
+     
 
     }
 }
 
 @media only screen and (max-width: 680px) {
-    .skills {
-        height: calc(130vh - -12rem);
-
-    }
+    
 
     .skillBarText>p {
         font-size: 4vw;
@@ -108,7 +105,7 @@
 @media only screen and (max-width: 650px) {
     .skills {
         height: calc(110vh - -12rem);
-        padding: 1rem 2rem;
+      
 
     }
 }
