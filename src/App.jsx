@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import PreLoader from './components/Preloader'
 import logo from '../src/assets/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Home from './Pages/Home';
 import Project from './Pages/Project'
@@ -47,8 +47,14 @@ function App() {
                 <NavLink to="/contact" className='desktopMenuListItem' >Contact</NavLink>
               </div>
               <div>
+                <a href="https://github.com/Nuttychoco" target="_blank"
+                rel="noopener noreferrer">
                 <FontAwesomeIcon className='icons' icon={faGithub} />
-                <FontAwesomeIcon className='icons' icon={faPhone} />
+                </a>
+                <a href="https://www.facebook.com/chrisjhovin.cabral.1/" target="_blank"
+                rel="noopener noreferrer">
+                <FontAwesomeIcon className='icons' icon={faFacebook} />
+                </a>
               </div>
             </nav>
 
