@@ -2,7 +2,6 @@
     padding: 2rem 6rem;
     margin: .5rem 12rem;
     box-shadow: 2px .5px 5px gray;
-    
     border-radius: 2%;
 }
 
@@ -18,4 +17,34 @@
 .yellowText {
     color: yellow;
     margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1600px) {
+    .projectPage {
+        padding: 0rem 0rem;
+        margin: .5rem 12rem;
+        box-shadow: none;
+        border-radius: 2%;
+    }
+    
+}
+
+@media only screen and (max-width: 1035px) {
+    .projectPage {
+        padding: 1rem 5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 650px) {
+    .projectPage {
+        padding: 1rem 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 470px) {
+    .projectPage {
+        padding: 1rem 1rem;
+    }
 }

@@ -54,13 +54,6 @@ const Carousel = () => {
       suppdes: "Tour Guide Web App",
       icon: require("../assets/Chode.PNG"),
     },
-    {
-      title: "Foodpad",
-      description:
-        "Static, Multi-page Responsive Website and API driven.",
-      suppdes: "Fast Food Web App",
-      icon: require("../assets/Foodpad.PNG"),
-    },
    
   ];
   const updateIndex = (newIndex) => {
