@@ -17,7 +17,6 @@
     font-size: 40px;
     font-weight: 400;
     z-index: 4;
-    animation: animateUser 4s linear infinite;
 }
 
 .titleTwo {

@@ -16,6 +16,8 @@ import iconcphp from '../assets/php.png';
 import iconclaravel from '../assets/laravel.png';
 import iconsql from '../assets/mysql.png'
 
+
+
 const Skills = () => {
 
     useEffect(() => {
@@ -25,7 +27,7 @@ const Skills = () => {
     return (
         <section className='skills'>
             <span className='skillTitle'>What I do <br></br></span>
-            <span className='skillDesc' data-aos="fade-up">Proficient in an assortment of technologies, including <img src={iconcplus} alt="" className='skillsLogo' />C++, <img src={iconcsharp} alt="" className='skillsLogo' />C#, <img src={iconchtml} alt="" className='skillsLogo' />HTML5, <img src={iconcss} alt="" className='skillsLogo' />CSS3, <img src={iconJs} alt="" className='skillsLogo' />Javascript, <img src={iconReact} alt="" className='skillsLogo' />React.Js, <img src={iconcphp} alt="" className='skillsLogo' />PHP, <img src={iconclaravel} alt="" className='skillsLogo' />Laravel, and <img src={iconsql} alt="" className='skillsLogo' />MySQL. Able to efficiently self-manage during independent projects, as well as collaborate in a team setting.
+            <span className='skillDesc' data-aos="fade-up">Proficient in an assortment of technologies, including <img src={iconcplus} alt="" className='skillsLogo' />C++, <img src={iconcsharp} alt="" className='skillsLogo' />C#, <img src={iconchtml} alt="" className='skillsLogo' />HTML5, <img src={iconcss} alt="" className='skillsLogo' />CSS3, <img src={iconJs} alt="" className='skillsLogo' />Javascript, <img src={iconReact} alt="" className='skillsLogo' />React Js, <img src={iconcphp} alt="" className='skillsLogo' />PHP, <img src={iconclaravel} alt="" className='skillsLogo' />Laravel, and <img src={iconsql} alt="" className='skillsLogo' />MySQL. Able to efficiently self-manage during independent projects, as well as collaborate in a team setting.
             </span>
             <div className="skillBars">
                 <div className="skillBar" data-aos="fade-up">
@@ -49,9 +51,9 @@ const Skills = () => {
                         <p>I used Visual Basic of the .NET framework because it offers a user-friendly and intuitive way to create desktop applications.</p>
                     </div>
                 </div>
-
             </div>
-
+          
+            
 
         </section>
     )

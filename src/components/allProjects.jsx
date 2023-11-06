@@ -18,7 +18,6 @@ import iconBs from '../assets/bootstrap.png';
 import iconJs from '../assets/js.png';
 import iconLara from '../assets/laravel.png';
 import Chode from '../assets/Chode.PNG';
-import FPad from '../assets/Foodpad.PNG';
 
 
 
@@ -37,7 +36,7 @@ const AllProjects = () => {
     <section className='AllProjects'>
       <div className='recentProject'>
 
-        <div className='project1' data-aos="fade-left">
+        <div className='project1' data-aos="fade-up">
           <div className='imageAlign1'>
             <img src={Kndt} alt="" className='projectimg1' />
           </div>
@@ -59,7 +58,7 @@ const AllProjects = () => {
           <hr className='hr1' data-aos="flip-right" />
         </div>
 
-        <div className='project1' data-aos="fade-right">
+        <div className='project1' data-aos="fade-down">
           <div className='imageAlign1'>
             <img src={GS} alt="" className='projectimg1' />
           </div>
@@ -82,7 +81,7 @@ const AllProjects = () => {
           <hr className='hr1' data-aos="flip-right" />
         </div>
 
-        <div className='project1' data-aos="fade-left">
+        <div className='project1' data-aos="fade-down">
           <div className='imageAlign1'>
             <img src={Dsign} alt="" className='projectimg1' />
           </div>
@@ -105,7 +104,7 @@ const AllProjects = () => {
           <hr className='hr1' data-aos="flip-right" />
         </div>
 
-        <div className='project1' data-aos="fade-right">
+        <div className='project1' data-aos="fade-down">
           <div className='imageAlign1'>
             <img src={Dfields} alt="" className='projectimg1' />
           </div>
@@ -128,7 +127,7 @@ const AllProjects = () => {
           <hr className='hr1' data-aos="flip-right" />
         </div>
 
-        <div className='project1' data-aos="fade-left">
+        <div className='project1' data-aos="fade-down">
           <div className='imageAlign1'>
             <img src={Chode} alt="" className='projectimg1' />
           </div>
