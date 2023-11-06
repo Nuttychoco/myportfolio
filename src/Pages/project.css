@@ -1,15 +1,20 @@
 .projectPage {
-    padding: 2rem 6rem;
-    margin: .5rem 12rem;
-    box-shadow: 2px .5px 5px gray;
+    position: relative;
+    
+    
     border-radius: 2%;
+}
+
+.projectItem {
+    padding: 2rem 12rem;
+    box-shadow: 2px .5px 5px gray;
 }
 
 .projectTitle {
 
-    font-size: 2.5vw;
+    font-size: 3.5rem;
     display: flex;
-    align-items: center;
+    align-items: ce1nter;
     justify-content: center;
     position: relative;
 }
@@ -20,9 +25,8 @@
 }
 
 @media only screen and (max-width: 1600px) {
-    .projectPage {
-        padding: 0rem 0rem;
-        margin: .5rem 12rem;
+    .projectItem {
+        padding: auto 12remrem;
         box-shadow: none;
         border-radius: 2%;
     }
@@ -30,21 +34,29 @@
 }
 
 @media only screen and (max-width: 1035px) {
-    .projectPage {
+    .projectItem {
         padding: 1rem 5rem;
     }
     
 }
 
 @media only screen and (max-width: 650px) {
-    .projectPage {
+    .projectItem {
         padding: 1rem 2rem;
+    }
+
+    .projectTitle {
+        font-size: 2rem;
+        display: flex;
+        align-items: ce1nter;
+        justify-content: center;
+        position: relative;
     }
 }
 
 
 @media only screen and (max-width: 470px) {
-    .projectPage {
+    .projectItem {
         padding: 1rem 1rem;
     }
 }

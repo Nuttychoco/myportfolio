@@ -38,7 +38,7 @@ const AllProjects = () => {
       <div className='recentProject'>
 
         <div className='project1' data-aos="fade-left">
-          <div>
+          <div className='imageAlign1'>
             <img src={Kndt} alt="" className='projectimg1' />
           </div>
           <div className='projectGroupText'>
@@ -60,7 +60,7 @@ const AllProjects = () => {
         </div>
 
         <div className='project1' data-aos="fade-right">
-          <div>
+          <div className='imageAlign1'>
             <img src={GS} alt="" className='projectimg1' />
           </div>
           <div className='projectGroupText'>
@@ -83,7 +83,7 @@ const AllProjects = () => {
         </div>
 
         <div className='project1' data-aos="fade-left">
-          <div>
+          <div className='imageAlign1'>
             <img src={Dsign} alt="" className='projectimg1' />
           </div>
           <div className='projectGroupText'>
@@ -106,7 +106,7 @@ const AllProjects = () => {
         </div>
 
         <div className='project1' data-aos="fade-right">
-          <div>
+          <div className='imageAlign1'>
             <img src={Dfields} alt="" className='projectimg1' />
           </div>
           <div className='projectGroupText'>
@@ -129,7 +129,7 @@ const AllProjects = () => {
         </div>
 
         <div className='project1' data-aos="fade-left">
-          <div>
+          <div className='imageAlign1'>
             <img src={Chode} alt="" className='projectimg1' />
           </div>
           <div className='projectGroupText'>

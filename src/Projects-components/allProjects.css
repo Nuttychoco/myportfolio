@@ -59,8 +59,8 @@
 
 .iconText {
     margin: auto .2rem;
-    height: 1vw;
-    width: 1vw;
+    height: 20px;
+    width: 20px;
 }
 
 .buttons {
@@ -91,4 +91,52 @@
 
 .hralign {
     margin: 4rem auto;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1280px) {
+    .projectimg1 {
+        width: 72vw;
+        height: 40vw;
+    }
+
+    .project1 {
+        margin: 0 auto;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .imgTitle {
+        color: white;
+        font-size: 2rem;
+    }
+
+    .imageAlign1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .projectimg1 {
+        width: 80vw;
+        height: 43vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .projectimg1 {
+        width: 92vw;
+        height: 48vw;
+    }
 }
