@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     color: white;
     height: auto;
 
@@ -16,7 +16,6 @@
     display: flex;
     align-items: start;
     flex-direction: row;
-    justify-content: center;
 }
 
 .projectimg1 {
@@ -29,18 +28,66 @@
     align-items: start;
     flex-direction: column;
     max-width: 100%;
+    margin: 1rem;
 }
 
 .imgTitle {
     color: white;
     display: flex;
     align-items: start;
+    font-size: 2rem;
 }
 
 .suppText1 {
-    font-size: 1rem; 
+    font-size: 1.2rem;
     color: gray;
     font-weight: 300;
-   
-    margin-bottom: 5rem;
+
+}
+
+.desText {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.techText1 {
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.iconText {
+    margin: auto .2rem;
+    height: 1vw;
+    width: 1vw;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.buttonProject {
+    cursor: pointer;
+    margin-right: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: .2rem .6rem;
+    border-radius: .5rem;
+}
+
+
+.buttonProject:hover {
+    background-color: gray;
+    color: white;
+}
+
+.hr1 {
+    position: relative;
+}
+
+.hralign {
+    margin: 4rem auto;
 }
