@@ -38,7 +38,7 @@ export const Experience = () => {
                 <h3 class="date">2023</h3>
                 <h1>KodeGo Bootcamp</h1>
                 <p className='grayText'>Full-Stack Web Developer </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                <p>Started as a software engineer working on researching, designing, developing, and managing software.</p>
               </div>
             </li>
             <li >
@@ -46,22 +46,22 @@ export const Experience = () => {
                 <h3 class="date">2021</h3>
                 <h1>Fourpointzero</h1>
                 <p className='grayText'>Front-End Designer</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                <p> Assisted in the design and architecture of software applications, and communicated closely with senior software engineers.</p>
               </div>
             </li>
             <li>
               <div class="timeline-content">
                 <h3 class="date">2020</h3>
                 <h1>Computer Technician and Dealer</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                <p> Developing, diagnose, and resolve technical issues. This includes identifying and fixing software and hardware problems.</p>
               </div>
             </li>
             <li>
               <div class="timeline-content">
                 <h3 class="date">20th may, 2010</h3>
-                <h1>S1 Sage One Global Solution Inc.</h1>
+                <h1>Sage One Global Solution Inc.</h1>
                 <p className='grayText'>IT Officer</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                <p>Performed software development tasks of software applications Started as a software engineer working on researching, designing, developing, and managing software</p>
               </div>
             </li>
           </ul>
