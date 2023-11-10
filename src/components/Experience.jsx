@@ -58,7 +58,7 @@ export const Experience = () => {
             </li>
             <li>
               <div class="timeline-content">
-                <h3 class="date">20th may, 2010</h3>
+                <h3 class="date">2019</h3>
                 <h1>Sage One Global Solution Inc.</h1>
                 <p className='grayText'>IT Officer</p>
                 <p>Performed software development tasks of software applications Started as a software engineer working on researching, designing, developing, and managing software</p>

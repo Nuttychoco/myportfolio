@@ -6,10 +6,10 @@ import logo from '../src/assets/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import Home from './Pages/Home';
 import Project from './Pages/Project'
 import Experience from './Pages/Experience'
-import Contact from './Pages/Contact'
 import ErrorPage from "./Pages/ErrorPage";
 import Footer from './components/footer';
 
@@ -30,6 +30,12 @@ function App() {
         <PreLoader />
       ) :
         <div>
+
+          <div className='introText'> 
+            <div>Welcome</div>
+            <div> <FontAwesomeIcon icon={faPhone} /> G-09567980605 / <FontAwesomeIcon icon="fa-solid fa-envelope" /> chrisjhovincabral26@yahoo.com</div>
+          </div>
+
           <Router>
             <nav className="navbar">
               <div>
@@ -42,9 +48,10 @@ function App() {
 
               </div>
               <div className="desktopMenu">
+              <NavLink to="/" className='desktopMenuListItem' >Home</NavLink>
                 <NavLink to="/project" className='desktopMenuListItem' >Project</NavLink>
                 <NavLink to="/experience" className='desktopMenuListItem' >Experience</NavLink>
-                <NavLink to="/contact" className='desktopMenuListItem' >Contact</NavLink>
+                
               </div>
               <div>
                 <a href="https://github.com/Nuttychoco" target="_blank"
@@ -63,7 +70,6 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/project" element={<Project />} />
                 <Route path="/experience" element={<Experience />} />
-                <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<ErrorPage />} />
               </Routes>
 
