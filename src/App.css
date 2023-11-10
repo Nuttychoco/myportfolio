@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
     font-size: 1.1rem;
     font-weight: 300;
     color: gray;
@@ -199,6 +200,9 @@
         font-size: .7rem;
         font-weight: 200;
     }
+
+  
+    
 }
 
 
@@ -236,6 +240,15 @@
         margin: .3rem;
         cursor: pointer;
     }
+
+    .introText {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content:center ;
+  
+ 
+}
 }
 
 @media only screen and (max-width: 500px) {
