@@ -50,7 +50,6 @@ const Intro = () => {
                         }} />
                 </div>
                 <div className='contact-me'>
-                    <button className='button'><FontAwesomeIcon icon={faBriefcase} /> Hire Me!</button>
                     <button className='button' onClick={() => { downloadFileAtURL(MyCv_FILE_URL) }}><FontAwesomeIcon icon={faUserTie} /> Download CV</button>
                 </div>
                 <img src={mypic} alt="" className='mypic ' />
