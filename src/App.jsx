@@ -58,10 +58,7 @@ function App() {
                 rel="noopener noreferrer">
                 <FontAwesomeIcon className='icons' icon={faGithub} />
                 </a>
-                <a href="https://www.facebook.com/chrisjhovin.cabral.1/" target="_blank"
-                rel="noopener noreferrer">
-                <FontAwesomeIcon className='icons' icon={faFacebook} />
-                </a>
+               
               </div>
             </nav>
 
