@@ -27,7 +27,7 @@ function App() {
   return (
     <div>
       {isLoading ? (
-        <PreLoader />
+        <PreLoader/>
       ) :
         <div>
 
