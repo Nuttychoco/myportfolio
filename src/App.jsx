@@ -33,7 +33,7 @@ function App() {
 
           <div className='introText'> 
             <div>Welcome</div>
-            <div> <FontAwesomeIcon icon={faPhone} /> G-09567980605 / <FontAwesomeIcon icon="fa-solid fa-envelope" /> chrisjhovincabral26@yahoo.com</div>
+            <div> <FontAwesomeIcon icon={faPhone} /> G-09567980605 / <FontAwesomeIcon icon="fa-solid fa-envelope" /> chrisjhovincabral25@gmail.com</div>
           </div>
 
           <Router>
