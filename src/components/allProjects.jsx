@@ -92,7 +92,7 @@ const AllProjects = () => {
             <div className='techText1'>Tech Used: <img src={iconHtml} alt="" className='iconText' /> <img src={iconCss} alt="" className='iconText' /> <img src={iconBs} alt="" className='iconText' /> <img src={iconJs} alt="" className='iconText' /></div>
 
             <div className='buttons'>
-              <a href="https://github.com/Nuttychoco/Dsignfabsv2" target="_blank"
+              <a href="https://github.com/Nuttychoco/Dsignfabsv4" target="_blank"
                 rel="noopener noreferrer">
                 <button className='buttonProject'> <FontAwesomeIcon icon={faGithub} /> Github repository</button>
               </a>
