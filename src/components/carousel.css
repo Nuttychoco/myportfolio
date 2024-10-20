@@ -29,7 +29,8 @@
 }
 
 .redText {
-    color: yellow;
+    color: #DB5856
+    ;
     margin-right: .5rem;
 }
 
@@ -116,7 +117,7 @@
 }
 
 .button-arrow:hover {
-    color: yellow;
+    color: #DB5856;
 
 }
 
@@ -143,7 +144,7 @@
 }
 
 .indicator-symbol-active {
-    color: yellow;
+    color: #DB5856;
 }
 
 
