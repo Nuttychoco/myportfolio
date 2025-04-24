@@ -55,14 +55,14 @@ const Carousel = () => {
       icon: require("../assets/Chode.PNG"),
     },
     {
-      title: "AngatBuhay",
+      title: "Angat Buhay",
       description:
         "Static, Multi-page Responsive Website and API driven.",
       suppdes: "Tour Guide Web App",
       icon: require("../assets/angatbuhay.png"),
     },
     {
-      title: "WhenInManila",
+      title: "When In Manila",
       description:
         "Static, Multi-page Responsive Website and API driven.",
       suppdes: "Tour Guide Web App",

@@ -27,7 +27,7 @@ const Intro = () => {
     const [state] = useState({
         title: "Hi, ",
         titleTwo: "I'm ",
-        titleThree: "Chris Jhovin",
+        titleThree: "C.J. Cabral",
     });
     return (
         <section className='intro'>
