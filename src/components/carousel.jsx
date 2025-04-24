@@ -54,6 +54,20 @@ const Carousel = () => {
       suppdes: "Tour Guide Web App",
       icon: require("../assets/Chode.PNG"),
     },
+    {
+      title: "AngatBuhay",
+      description:
+        "Static, Multi-page Responsive Website and API driven.",
+      suppdes: "Tour Guide Web App",
+      icon: require("../assets/angatbuhay.png"),
+    },
+    {
+      title: "WhenInManila",
+      description:
+        "Static, Multi-page Responsive Website and API driven.",
+      suppdes: "Tour Guide Web App",
+      icon: require("../assets/wheninmanila.png"),
+    },
    
   ];
   const updateIndex = (newIndex) => {
