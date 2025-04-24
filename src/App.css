@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     height: auto;
-    padding: .5rem 1rem;
+    padding: 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,8 +28,7 @@
    
     animation-name: transition;
     animation-duration: 5s;
-    background-color: #111;
-    margin-top: 3rem;
+    background-color:black;
     margin-bottom: 2rem;
 }
 
