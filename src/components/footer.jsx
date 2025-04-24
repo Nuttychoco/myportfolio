@@ -21,7 +21,7 @@ export const Footer = () => {
                 <img src={iconCplusplus} alt="" className='footerLogo' /><img src={iconPython} alt="" className='footerLogo' />
                 <img src={iconLaravel} alt="" className='footerLogo' /><img src={iconPhp} alt="" className='footerLogo' /></p>
 
-            <p className='rightText'>@2023 All right reserved</p>
+            <p className='rightText'>@2025 All right reserved</p>
 
         </footer>
     )
