@@ -93,8 +93,8 @@
     position: absolute;
     right: 5em;
     z-index: -1;
-    height: 30vw;
-    width: 17vw;
+    height: 40vh;
+    width: 30vw;
     object-fit: cover;
     animation-duration: 3s;
     animation-name: moveUp;
@@ -123,8 +123,8 @@
     .mypic {
         position: absolute;
         right: 0rem;
-        height: 35vw;
-        width: 20vw;
+        height: 25vw;
+        width: 27vw;
         object-fit: cover;
         animation-duration: 3s;
         animation-name: moveUp;
@@ -137,7 +137,7 @@
     .mypic {
         position: absolute;
         right: 0rem;
-        height: 45vw;
+        height: 20vw;
         width: 26vw;
         object-fit: cover;
         animation-duration: 3s;
@@ -150,8 +150,8 @@
     .mypic {
         position: absolute;
         right: 0rem;
-        height: 45vw;
-        width: 26vw;
+        height: 34vw;
+        width: 34vw;
         object-fit: cover;
         animation-duration: 3s;
         animation-name: moveUp;
@@ -163,8 +163,8 @@
     .mypic {
         position: absolute;
         right: 0rem;
-        height: 30rem;
-        width: 17rem;
+        height: 35vh;
+        width: 34vw;
         object-fit: cover;
         animation-duration: 3s;
         animation-name: moveUp;
@@ -189,8 +189,8 @@
     .mypic {
         position: absolute;
         right: 0rem;
-        height: 30rem;
-        width: 17rem;
+        height: 30vh;
+        width: 48vw;
         object-fit: cover;
         animation-duration: 3s;
         animation-name: moveUp;

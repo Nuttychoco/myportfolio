@@ -5,7 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faUserTie } from '@fortawesome/free-solid-svg-icons'
 import bg from '../assets/redneon.gif';
-import mypic from '../assets/edited.png';
+import stars from '../assets/stars.gif';
+import commet from '../assets/commet.gif';
+import laptop from '../assets/laptop.gif';
+import astro from '../assets/astro.gif';
 import Typewriter from "typewriter-effect";
 
 
@@ -52,7 +55,11 @@ const Intro = () => {
                 <div className='contact-me'>
                     <button className='button' onClick={() => { downloadFileAtURL(MyCv_FILE_URL) }}><FontAwesomeIcon icon={faUserTie} /> Download CV</button>
                 </div>
-                <img src={mypic} alt="" className='mypic ' />
+                <img src={stars} alt="" className='mypic'/>
+                <img src={commet} alt="" className='mypic'/>
+                <img src={laptop} alt="" className='mypic'/>
+                <img src={commet} alt="" className='mypic'/>
+                <img src={astro} alt="" className='mypic'/>
             </div>
         </section>
     )
