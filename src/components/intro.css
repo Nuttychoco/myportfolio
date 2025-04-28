@@ -96,6 +96,7 @@
     height: 40vh;
     width: 30vw;
     object-fit: cover;
+    margin-top: -12vh;
     animation-duration: 3s;
     animation-name: moveUp;
    
