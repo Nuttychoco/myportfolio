@@ -22,10 +22,25 @@
     opacity: 0;
 }
 
+@media only screen and (max-width: 800px) {
+    .loaderImg {
+        max-width: 100%;
+        width: 120%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 56;
+        margin: auto;
+        padding: auto;
+
+    }
+}
+
 @media only screen and (max-width: 421px) {
     .loaderImg {
         max-width: 100%;
-        width: 90%;
+        width: 140%;
         height: 100vh;
         display: flex;
         align-items: center;
