@@ -10,6 +10,7 @@ import commet from '../assets/commet.gif';
 import laptop from '../assets/laptop.gif';
 import astro from '../assets/astro.gif';
 import Typewriter from "typewriter-effect";
+import MyCvv from '../assets/MyCv.pdf';
 
 
 
@@ -53,7 +54,7 @@ const Intro = () => {
                         }} />
                 </div>
                 <div className='contact-me'>
-                    <button className='button' onClick={() => { downloadFileAtURL(MyCv_FILE_URL) }}><FontAwesomeIcon icon={faUserTie} /> Download CV</button>
+                    <button className='button' onClick={() => { downloadFileAtURL(MyCvv) }}><FontAwesomeIcon icon={faUserTie} /> Download CV</button>
                 </div>
                 <img src={stars} alt="" className='mypic'/>
                 <img src={commet} alt="" className='mypic'/>
