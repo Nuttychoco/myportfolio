@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import './intro.css'
 import { Link } from 'react-scroll';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
-import { faUserTie } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faUserTie } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import bg from '../assets/redneon.gif';
 import stars from '../assets/stars.gif';
 import commet from '../assets/commet.gif';
@@ -56,11 +58,11 @@ const Intro = () => {
                 <div className='contact-me'>
                     <button className='button' onClick={() => { downloadFileAtURL(MyCvv) }}><FontAwesomeIcon icon={faUserTie} /> Download CV</button>
                 </div>
-                <img src={stars} alt="" className='mypic'/>
-                <img src={commet} alt="" className='mypic'/>
-                <img src={laptop} alt="" className='mypic'/>
-                <img src={commet} alt="" className='mypic'/>
-                <img src={astro} alt="" className='mypic'/>
+                <img src={stars} alt="" className='mypic' data-aos="fade-up" />
+                <img src={commet} alt="" className='mypic' data-aos="fade-left"/>
+                <img src={laptop} alt="" className='mypic' data-aos="fade-right"/>
+                <img src={commet} alt="" className='mypic' data-aos="fade-bottom"/>
+                <img src={astro} alt="" className='mypic' data-aos="fade-up"/>
             </div>
         </section>
     )
