@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './experience.css';
-import profilePic from '../assets/profile pic.jpg';
+import profilePic from '../assets/profile pic.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faMessage } from '@fortawesome/free-solid-svg-icons';
