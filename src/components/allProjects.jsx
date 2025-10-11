@@ -19,6 +19,7 @@ import iconBs from '../assets/bootstrap.png';
 import iconJs from '../assets/js.png';
 import iconLara from '../assets/laravel.png';
 import iconPhp from '../assets/php.png';
+import iconWordpress from '../assets/wordpress.png';
 import Chode from '../assets/Chode.PNG';
 import AngatBuhay from '../assets/angatbuhay.png';
 import WhenInManila from '../assets/wheninmanila.png';
@@ -168,7 +169,7 @@ const AllProjects = () => {
             <h1 className='imgTitle'>Angat Buhay</h1>
             <div className='suppText1'>Vlog Web App </div>
             <div className='desText'>Static, Multi-page Responsive Website and API driven</div>
-            <div className='techText1'>Tech Used: <img src={iconHtml} alt="" className='iconText' /> <img src={iconCss} alt="" className='iconText' /> <img src={iconJs} alt="" className='iconText' /> <img src={iconPhp} alt="" className='iconText' /></div>
+            <div className='techText1'>Tech Used: <img src={iconWordpress} alt="" className='iconText' /> </div>
 
             <div className='buttons'>
               <a href="https://www.angatbuhay.ph/" target="_blank"
@@ -191,8 +192,8 @@ const AllProjects = () => {
             <h1 className='imgTitle'>When In Manila</h1>
             <div className='suppText1'>Vlog Web App </div>
             <div className='desText'>Static, Multi-page Responsive Website and API driven</div>
-            <div className='techText1'>Tech Used: <img src={iconHtml} alt="" className='iconText' />
-              <img src={iconCss} alt="" className='iconText' /> <img src={iconJs} alt="" className='iconText' /> <img src={iconPhp} alt="" className='iconText' /></div>
+            <div className='techText1'>Tech Used: <img src={iconWordpress} alt="" className='iconText' /> </div>
+             
 
             <div className='buttons'>
               <a href="https://www.wheninmanila.com/" target="_blank"
