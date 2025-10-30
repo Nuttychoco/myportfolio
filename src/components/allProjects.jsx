@@ -23,6 +23,7 @@ import iconWordpress from '../assets/wordpress.png';
 import Chode from '../assets/Chode.PNG';
 import AngatBuhay from '../assets/angatbuhay.png';
 import WhenInManila from '../assets/wheninmanila.png';
+import RyanAndBel from '../assets/RyanWedding.png';
 
 
 
@@ -65,18 +66,24 @@ const AllProjects = () => {
 
         <div className='project1' data-aos="fade-down">
           <div className='imageAlign1'>
-            <img src={GS} alt="" className='projectimg1' />
+            <img src={RyanAndBel} alt="" className='projectimg1' />
           </div>
           <div className='projectGroupText'>
-            <h1 className='imgTitle'>Guard Seraphim</h1>
-            <div className='suppText1'>Inventory App </div>
-            <div className='desText'>Static, Multi-page Application</div>
-            <div className='techText1'>Tech Used: <img src={iconHtml} alt="" className='iconText' /> <img src={iconCss} alt="" className='iconText' /> <img src={iconBs} alt="" className='iconText' /></div>
+            <h1 className='imgTitle'>Ryan & Bel Wedding</h1>
+            <div className='suppText1'>Wedding App </div>
+            <div className='desText'>Static, API Driven, and Responsive Application</div>
+            <div className='techText1'>Tech Used: <img src={iconHtml} alt="" className='iconText' /> <img src={iconCss} alt="" className='iconText' /> <img src={iconBs} alt="" className='iconText' /> <img src={iconJs} alt="" className='iconText' /> </div> 
 
             <div className='buttons'>
-              <a href="https://github.com/Nuttychoco/https---github.com-Nuttychoco-Guard-Seraphim" target="_blank"
+              <a href="https://github.com/Nuttychoco/ryan-bel" target="_blank"
                 rel="noopener noreferrer">
                 <button className='buttonProject'> <FontAwesomeIcon icon={faGithub} /> Github repository</button>
+              </a>
+            </div>
+            <div className='buttons'>
+              <a href="https://ryan-bel.vercel.app/" target="_blank"
+                rel="noopener noreferrer">
+                <button className='buttonProject'> <FontAwesomeIcon icon={faLink} /> Link</button>
               </a>
             </div>
           </div>
@@ -206,6 +213,25 @@ const AllProjects = () => {
 
         <div className='hralign'>
           <hr className='hr1' data-aos="flip-right" />
+        </div>
+
+                <div className='project1' data-aos="fade-down">
+          <div className='imageAlign1'>
+            <img src={GS} alt="" className='projectimg1' />
+          </div>
+          <div className='projectGroupText'>
+            <h1 className='imgTitle'>Guard Seraphim</h1>
+            <div className='suppText1'>Inventory App </div>
+            <div className='desText'>Static, Multi-page Application</div>
+            <div className='techText1'>Tech Used: <img src={iconHtml} alt="" className='iconText' /> <img src={iconCss} alt="" className='iconText' /> <img src={iconBs} alt="" className='iconText' /></div>
+
+            <div className='buttons'>
+              <a href="https://github.com/Nuttychoco/https---github.com-Nuttychoco-Guard-Seraphim" target="_blank"
+                rel="noopener noreferrer">
+                <button className='buttonProject'> <FontAwesomeIcon icon={faGithub} /> Github repository</button>
+              </a>
+            </div>
+          </div>
         </div>
 
       </div>

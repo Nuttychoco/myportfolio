@@ -26,12 +26,12 @@ const Carousel = () => {
       icon: require("../assets/Kndt.PNG"),
     },
     {
-      title: "Guard Seraphim",
+      title: "Ryan & Bel Wedding",
       description:
-        "Static, Multi-page Responsive Website.",
-      suppdes: "Agency Web App",
+        "Static, API driven, and Responsive Website.",
+      suppdes: "Wedding Web App",
 
-      icon: require("../assets/Guard.PNG"),
+      icon: require("../assets/RyanWedding.png"),
     },
     {
       title: "DsignFabs Advertising",
@@ -68,7 +68,15 @@ const Carousel = () => {
       suppdes: "Tour Guide Web App",
       icon: require("../assets/wheninmanila.png"),
     },
-   
+    {
+      title: "Guard Seraphim",
+      description:
+        "Static, Multi-page Responsive Website.",
+      suppdes: "Agency Web App",
+
+      icon: require("../assets/Guard.PNG"),
+    },
+
   ];
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
