@@ -43,7 +43,7 @@
 }
 
 .yellowText3 {
-    color: #b4cbf0
+    color: #DB5856
 }
 
 @keyframes transition {
@@ -110,12 +110,12 @@
 }
 
 .icons:hover {
-    color: #b4cbf0;
+    color: #DB5856;
 
 }
 
 .active {
-    color: #b4cbf0;
+    color: #DB5856;
  
 }
 
