@@ -42,7 +42,7 @@ function App() {
                 <NavLink to="/">
                  <div className='cjText'> cj<span className='yellowText3'>-</span>cabral<span className='yellowText3'>.</span></div>
                   <div className='seText'>
-                    Software Engineer
+                    Software Engineer | Graphic Desgigner
                   </div>
                 </NavLink>
 
