@@ -15,7 +15,7 @@ import iconReact from '../assets/react.png';
 import iconcphp from '../assets/php.png';
 import iconclaravel from '../assets/laravel.png';
 import iconsql from '../assets/mysql.png';
-import mail from '../assets/mail.png' ;
+import mail from '../assets/mail.png';
 
 
 
@@ -31,13 +31,7 @@ const Skills = () => {
             <span className='skillDesc' data-aos="fade-up">Proficient in an assortment of technologies, including <img src={iconcplus} alt="" className='skillsLogo' />C++, <img src={iconcsharp} alt="" className='skillsLogo' />C#, <img src={iconchtml} alt="" className='skillsLogo' />HTML5, <img src={iconcss} alt="" className='skillsLogo' />CSS3, <img src={iconJs} alt="" className='skillsLogo' />Javascript, <img src={iconReact} alt="" className='skillsLogo' />React Js, <img src={iconcphp} alt="" className='skillsLogo' />PHP, <img src={iconclaravel} alt="" className='skillsLogo' />Laravel, and <img src={iconsql} alt="" className='skillsLogo' />MySQL. Able to efficiently self-manage during independent projects, as well as collaborate in a team setting.
             </span>
             <div className="skillBars">
-                <div className="skillBar" data-aos="fade-up">
-                    <img src={UiImg} alt="" className='skillBarImg' />
-                    <div className='skillBarText' >
-                        <h2>UI/UX Design</h2>
-                        <p>Understanding the needs, goals, and behaviors of your target audience through techniques like user interviews, surveys, and usability testing for UX Organizing and structuring content and functionality in a logical and user-friendly way.  </p>
-                    </div>
-                </div>
+
                 <div className="skillBar" data-aos="flip-right">
                     <img src={WebDes} alt="" className='skillBarImg' />
                     <div className='skillBarText'>
@@ -52,13 +46,31 @@ const Skills = () => {
                         <p>I used Visual Basic of the .NET framework because it offers a user-friendly and intuitive way to create desktop applications.</p>
                     </div>
                 </div>
+
+                <div className='hralign'>
+                    <hr className='hr1' data-aos="flip-right" />
+                </div>
+
+                <span className='skillDesc' data-aos="fade-up">Hi! I'm also a graphic designer specializing in brand identity, I help businesses look professional and cohesive.
+                    My focus is on creating distinctive brand systems that ensure your company stands out from the competition and clearly communicates its value.<br />
+                </span>
+                  <div className="skillBar" data-aos="flip-right">
+                    <img src={UiImg} alt="" className='skillBarImg' />
+                    <div className='skillBarText' >
+                        <h2>UI/UX Design</h2>
+                        <p>Understanding the needs, goals, and behaviors of your target audience through techniques like user interviews, surveys, and usability testing for UX Organizing and structuring content and functionality in a logical and user-friendly way.  </p>
+                    </div>
+                </div>
                 <div className="skillBar" data-aos="flip-left">
                     <img src={mail} alt="" className='skillBarImg' />
                     <div className='skillBarText'>
                         <h2>Email Designer</h2>
-                        <p>Focuses on understanding the client's pain points and demonstrating how a well-designed email can address those specific challenges to drive tangible results</p>
+                        <p>Focuses on understanding the client's pain points and demonstrating how a well-designed email can address those specific challenges to drive tangible results.
+                        </p>
                     </div>
+                    <br /><br />
                 </div>
+              
             </div>
 
 
