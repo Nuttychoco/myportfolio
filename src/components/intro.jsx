@@ -11,6 +11,8 @@ import stars from '../assets/stars.gif';
 import commet from '../assets/commet.gif';
 import laptop from '../assets/laptop.gif';
 import astro from '../assets/astro.gif';
+import me from '../assets/me.png';
+import moon from '../assets/moon loop.gif';
 import Typewriter from "typewriter-effect";
 import MyCvv from '../assets/MyCv.pdf';
 
@@ -58,11 +60,10 @@ const Intro = () => {
                 <div className='contact-me'>
                     <button className='button' onClick={() => { downloadFileAtURL(MyCvv) }}><FontAwesomeIcon icon={faUserTie} /> Download CV</button>
                 </div>
+                <img src={commet} alt="" className='mypic' data-aos="fade-left" />
+                <img src={moon} alt="" className='mypic' data-aos="fade-bottom" />
                 <img src={stars} alt="" className='mypic' data-aos="fade-up" />
-                <img src={commet} alt="" className='mypic' data-aos="fade-left"/>
-                <img src={laptop} alt="" className='mypic' data-aos="fade-right"/>
-                <img src={commet} alt="" className='mypic' data-aos="fade-bottom"/>
-                <img src={astro} alt="" className='mypic' data-aos="fade-up"/>
+                <img src={me} alt="" className='mypic' data-aos="fade-up" />
             </div>
         </section>
     )

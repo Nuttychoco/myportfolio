@@ -27,7 +27,7 @@
     z-index: 300;
     animation-name: transition;
     animation-duration: 5s;
-    background-color:#111;
+    background-color:black;
     margin-bottom: 2rem;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .yellowText3 {
-    color: #DB5856
+    color: rgb(79, 155, 218)
 }
 
 @keyframes transition {
@@ -81,7 +81,7 @@
     position: absolute;
     z-index: -1;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #DB5856;
+    border-bottom: 3px solid #d3fcfc;
     top: 0;
     left: 0;
     right: 0;
@@ -91,7 +91,7 @@
 }
 
 .desktopMenuListItem:hover {
-    color: #DB5856;
+    color: #d3fcfc;
 
 }
 
@@ -104,18 +104,18 @@
 
 .icons {
     font-size: 2rem;
-    margin: .5rem;
+    margin: .8rem;
     cursor: pointer;
     color: white;
 }
 
 .icons:hover {
-    color: #DB5856;
+    color: #d3fcfc;
 
 }
 
 .active {
-    color: #DB5856;
+    color: #d3fcfc;
  
 }
 

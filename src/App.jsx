@@ -3,10 +3,13 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-do
 import React, { useEffect, useState } from 'react';
 import PreLoader from './components/Preloader'
 import logo from '../src/assets/logo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faBehance } from '@fortawesome/free-brands-svg-icons';
+
 import Home from './Pages/Home';
 import Project from './Pages/Project'
 import Experience from './Pages/Experience'
@@ -27,20 +30,20 @@ function App() {
   return (
     <div>
       {isLoading ? (
-        <PreLoader/>
+        <PreLoader />
       ) :
         <div>
 
-          <div className='introText'> 
+          <div className='introText'>
             <div>Welcome</div>
-            <div> <FontAwesomeIcon icon={faPhone} /> G-09567980605 / <FontAwesomeIcon icon="fa-solid fa-envelope" /> chrisjhovincabral25@gmail.com</div>
+            <div> <FontAwesomeIcon icon={faPhone} /> D-09945265887  / <FontAwesomeIcon icon="fa-solid fa-envelope" /> chrisjhovincabral25@gmail.com</div>
           </div>
 
           <Router>
             <nav className="navbar">
               <div>
                 <NavLink to="/">
-                 <div className='cjText'> cj<span className='yellowText3'>-</span>cabral<span className='yellowText3'>.</span></div>
+                  <div className='cjText'> cj<span className='yellowText3'>-</span>cabral<span className='yellowText3'>.</span></div>
                   <div className='seText'>
                     Software Engineer | Graphic Desgigner
                   </div>
@@ -48,17 +51,26 @@ function App() {
 
               </div>
               <div className="desktopMenu">
-              <NavLink to="/" className='desktopMenuListItem' >Home</NavLink>
+                <NavLink to="/" className='desktopMenuListItem' >Home</NavLink>
                 <NavLink to="/project" className='desktopMenuListItem' >Project</NavLink>
                 <NavLink to="/experience" className='desktopMenuListItem' >Experience</NavLink>
-                
+
               </div>
               <div>
                 <a href="https://github.com/Nuttychoco" target="_blank"
-                rel="noopener noreferrer">
-                <FontAwesomeIcon className='icons' icon={faGithub} />
+                  rel="noopener noreferrer">
+                  <FontAwesomeIcon className='icons' icon={faGithub} />
                 </a>
-               
+                <a href="https://www.linkedin.com/in/chris-jhovin-cabral-28587b2a6/" target="_blank"
+                  rel="noopener noreferrer">
+                  <FontAwesomeIcon className='icons' icon={faLinkedin} />
+                </a>
+                <a href="https://www.behance.net/chrisjcabral" target="_blank"
+                  rel="noopener noreferrer">
+                  <FontAwesomeIcon className='icons' icon={faBehance} />
+                </a>
+
+
               </div>
             </nav>
 
