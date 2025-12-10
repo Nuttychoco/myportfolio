@@ -6,6 +6,7 @@ import Carousel from '../components/carousel';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from '../components/footer';
+import comment from '../assets/comment.png';
 
 
 
@@ -26,7 +27,9 @@ function Home() {
       <div data-aos="fade-up">
         <Carousel />
       </div>
-
+      <div className='fade-up'>
+        <img src={comment} alt="" className='comments' />
+      </div>
     </div>
 
   );

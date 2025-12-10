@@ -43,7 +43,7 @@
 }
 
 .yellowText3 {
-    color: rgb(79, 155, 218)
+    color: #c5af93
 }
 
 @keyframes transition {
@@ -81,7 +81,7 @@
     position: absolute;
     z-index: -1;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #d3fcfc;
+    border-bottom: 3px solid #9e815b;
     top: 0;
     left: 0;
     right: 0;
@@ -91,7 +91,7 @@
 }
 
 .desktopMenuListItem:hover {
-    color: #d3fcfc;
+    color: #9e815b;
 
 }
 
@@ -110,12 +110,12 @@
 }
 
 .icons:hover {
-    color: #d3fcfc;
+    color: #c5af93;
 
 }
 
 .active {
-    color: #d3fcfc;
+    color: #c5af93;
  
 }
 

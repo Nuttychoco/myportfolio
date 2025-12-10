@@ -14,7 +14,8 @@ import iconJs from '../assets/js.png';
 import iconReact from '../assets/react.png';
 import iconcphp from '../assets/php.png';
 import iconclaravel from '../assets/laravel.png';
-import iconsql from '../assets/mysql.png'
+import iconsql from '../assets/mysql.png';
+import mail from '../assets/mail.png' ;
 
 
 
@@ -51,9 +52,16 @@ const Skills = () => {
                         <p>I used Visual Basic of the .NET framework because it offers a user-friendly and intuitive way to create desktop applications.</p>
                     </div>
                 </div>
+                <div className="skillBar" data-aos="flip-left">
+                    <img src={mail} alt="" className='skillBarImg' />
+                    <div className='skillBarText'>
+                        <h2>Email Designer</h2>
+                        <p>Focuses on understanding the client's pain points and demonstrating how a well-designed email can address those specific challenges to drive tangible results</p>
+                    </div>
+                </div>
             </div>
-          
-            
+
+
 
         </section>
     )
