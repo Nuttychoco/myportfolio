@@ -189,6 +189,6 @@ html {
     top: -30px;
   }
   .timeline ul li:hover::before {
-    background-color: #DB5856;
+    background-color: #dfff00;
   }
 }
