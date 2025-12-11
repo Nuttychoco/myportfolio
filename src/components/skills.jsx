@@ -46,14 +46,6 @@ const Skills = () => {
                         <p>I used Visual Basic of the .NET framework because it offers a user-friendly and intuitive way to create desktop applications.</p>
                     </div>
                 </div>
-
-                <div className='hralign'>
-                    <hr className='hr1' data-aos="flip-right" />
-                </div>
-
-                <span className='skillDesc' data-aos="fade-up">Hi! I'm also a graphic designer specializing in brand identity, I help businesses look professional and cohesive.
-                    My focus is on creating distinctive brand systems that ensure your company stands out from the competition and clearly communicates its value.<br />
-                </span>
                   <div className="skillBar" data-aos="flip-right">
                     <img src={UiImg} alt="" className='skillBarImg' />
                     <div className='skillBarText' >
