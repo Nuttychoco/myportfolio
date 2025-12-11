@@ -60,9 +60,7 @@ const Intro = () => {
                 <div className='contact-me'>
                     <button className='button' onClick={() => { downloadFileAtURL(MyCvv) }}><FontAwesomeIcon icon={faUserTie} /> Download CV</button>
                 </div>
-                <img src={commet} alt="" className='mypic' data-aos="fade-left" />
-                <img src={moon} alt="" className='mypic' data-aos="fade-bottom" />
-                <img src={stars} alt="" className='mypic' data-aos="fade-up" />
+                
                 <img src={me} alt="" className='mypic' data-aos="fade-up" />
             </div>
         </section>
