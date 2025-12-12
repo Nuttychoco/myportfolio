@@ -84,7 +84,6 @@
 
 .button:hover::before {
     transform: scaleX(1);
-
 }
 
 .mypic {
@@ -97,8 +96,6 @@
     margin-top: -12vh;
     animation-duration: 3s;
     animation-name: moveUp;
-   
-    
 }
 
 .moving {
