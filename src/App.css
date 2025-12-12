@@ -217,7 +217,6 @@
         position: sticky;
         top: 0;
         z-index: 300;
-
     }
 
 
@@ -230,7 +229,6 @@
         transform: translateZ(0);
         animation-duration: 1s;
         padding-bottom: .5rem;
-
         padding-right: 4px;
         font-weight: bold;
     }
