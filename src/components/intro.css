@@ -160,7 +160,7 @@
         position: absolute;
         right: 0rem;
         height: 35vh;
-        width: 34vw;
+        width: 40vw;
         object-fit: cover;
         animation-duration: 3s;
         animation-name: moveUp;
@@ -186,7 +186,7 @@
         position: absolute;
         right: 0rem;
         height: 30vh;
-        width: 48vw;
+        width: 60vw;
         object-fit: cover;
         animation-duration: 3s;
         animation-name: moveUp;
