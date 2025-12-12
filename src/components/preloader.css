@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     z-index: 56;
-    margin: auto;
+    margin: auto auto;
     padding: auto;
 
 }

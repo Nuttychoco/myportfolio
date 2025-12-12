@@ -27,7 +27,7 @@
     z-index: 300;
     animation-name: transition;
     animation-duration: 5s;
-    background-color:#080808;
+    background-color: #080808;
     margin-bottom: 2rem;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .yellowText3 {
-    color: #c5af93
+    color: #abdbe3
 }
 
 @keyframes transition {
@@ -81,7 +81,7 @@
     position: absolute;
     z-index: -1;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #dfff00;
+    border-bottom: 3px solid #abdbe3;
     top: 0;
     left: 0;
     right: 0;
@@ -91,7 +91,7 @@
 }
 
 .desktopMenuListItem:hover {
-    color: #dfff00;
+    color: #abdbe3;
 
 }
 
@@ -110,13 +110,13 @@
 }
 
 .icons:hover {
-    color: #dfff00;
+    color: #abdbe3;
 
 }
 
 .active {
-    color: #dfff00;
- 
+    color: #abdbe3;
+
 }
 
 @media only screen and (min-width: 2560px) {
@@ -184,23 +184,22 @@
     }
 
 
-    
+
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 750px) {
     .cjText {
         font-size: 1.2rem;
         color: white
     }
-    
+
     .seText {
         color: gray;
         font-size: .7rem;
         font-weight: 200;
     }
 
-  
-    
+
 }
 
 
@@ -218,7 +217,7 @@
 
     }
 
-   
+
 
     .desktopMenuListItem {
         font-size: 15px;
@@ -240,13 +239,13 @@
     }
 
     .introText {
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-   justify-content:center ;
-  
- 
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -270,7 +269,7 @@
         font-size: 1rem;
         color: white
     }
-    
+
     .seText {
         color: gray;
         font-size: .8rem;
@@ -290,7 +289,7 @@
         border-right: 1px solid black;
         padding-right: 5px;
         font-weight: bolder;
-       
+
     }
 
     .icons {
@@ -299,5 +298,3 @@
         cursor: pointer;
     }
 }
-
-
