@@ -16,8 +16,6 @@ function Home() {
     AOS.init({ duration: 2000 })
   }, []);
 
-
-
   return (
     <div>
       <div className='homepage'>
