@@ -22,6 +22,10 @@
     .homepage {
         padding: 1rem 5rem;
     }
+    .comments {
+    height: auto;
+    width: 70vh;
+}
 
 }
 
@@ -36,4 +40,10 @@
     .homepage {
         padding: 1rem 1rem;
     }
+    .comments {
+    height: auto;
+    width: 40vh;
+    margin-bottom: .3vh;
+}
+
 }
