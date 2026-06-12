@@ -24,6 +24,7 @@ import Chode from '../assets/Chode.PNG';
 import AngatBuhay from '../assets/angatbuhay.png';
 import WhenInManila from '../assets/wheninmanila.png';
 import RyanAndBel from '../assets/RyanWedding.png';
+import cebuGrandPrix from '../assets/cebuGrandPrixHomepage.png'
 
 
 
@@ -72,7 +73,7 @@ const AllProjects = () => {
             <h1 className='imgTitle'>Ryan & Bel Wedding</h1>
             <div className='suppText1'>Wedding App </div>
             <div className='desText'>Static, API Driven, and Responsive Application</div>
-            <div className='techText1'>Tech Used: <img src={iconHtml} alt="" className='iconText' /> <img src={iconCss} alt="" className='iconText' /> <img src={iconBs} alt="" className='iconText' /> <img src={iconJs} alt="" className='iconText' /> </div> 
+            <div className='techText1'>Tech Used: <img src={iconHtml} alt="" className='iconText' /> <img src={iconCss} alt="" className='iconText' /> <img src={iconBs} alt="" className='iconText' /> <img src={iconJs} alt="" className='iconText' /> </div>
 
             <div className='buttons'>
               <a href="https://github.com/Nuttychoco/ryan-bel" target="_blank"
@@ -92,6 +93,36 @@ const AllProjects = () => {
         <div className='hralign'>
           <hr className='hr1' data-aos="flip-right" />
         </div>
+
+        <div className='project1' data-aos="fade-down">
+          <div className='imageAlign1'>
+            <img src={cebuGrandPrix} alt="" className='projectimg1' />
+          </div>
+          <div className='projectGroupText'>
+            <h1 className='imgTitle'>Cebu Grand Prix</h1>
+            <div className='suppText1'>Commerce App </div>
+            <div className='desText'>Static, API Driven, and Responsive Application</div>
+            <div className='techText1'>Tech Used: <img src={iconHtml} alt="" className='iconText' /> <img src={iconCss} alt="" className='iconText' /> <img src={iconBs} alt="" className='iconText' /> <img src={iconJs} alt="" className='iconText' /> </div>
+
+            <div className='buttons'>
+              <a href="https://github.com/Nuttychoco/Cebu-Grandprix" target="_blank"
+                rel="noopener noreferrer">
+                <button className='buttonProject'> <FontAwesomeIcon icon={faGithub} /> Github repository</button>
+              </a>
+            </div>
+            <div className='buttons'>
+              <a href="https://www.cebugrandprix.com/" target="_blank"
+                rel="noopener noreferrer">
+                <button className='buttonProject'> <FontAwesomeIcon icon={faLink} /> Link</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className='hralign'>
+          <hr className='hr1' data-aos="flip-right" />
+        </div>
+
 
         <div className='project1' data-aos="fade-down">
           <div className='imageAlign1'>
@@ -200,7 +231,7 @@ const AllProjects = () => {
             <div className='suppText1'>Vlog Web App </div>
             <div className='desText'>Static, Multi-page Responsive Website and API driven</div>
             <div className='techText1'>Tech Used: <img src={iconWordpress} alt="" className='iconText' /> </div>
-             
+
 
             <div className='buttons'>
               <a href="https://www.wheninmanila.com/" target="_blank"
@@ -215,7 +246,7 @@ const AllProjects = () => {
           <hr className='hr1' data-aos="flip-right" />
         </div>
 
-                <div className='project1' data-aos="fade-down">
+        <div className='project1' data-aos="fade-down">
           <div className='imageAlign1'>
             <img src={GS} alt="" className='projectimg1' />
           </div>

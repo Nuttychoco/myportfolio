@@ -26,6 +26,14 @@ const Carousel = () => {
       icon: require("../assets/Kndt.PNG"),
     },
     {
+      title: "Cebu Grand Prix",
+      description:
+        "Static, API driven, and Responsive Website.",
+      suppdes: "Commerce Web App",
+
+      icon: require("../assets/cebuGrandPrixHomepage.png"),
+    },
+    {
       title: "Ryan & Bel Wedding",
       description:
         "Static, API driven, and Responsive Website.",
